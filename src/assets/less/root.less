@@ -1179,139 +1179,228 @@
 }
 
 /*-- -------------------------- -->
-<---    Final Call To Action    -->
+<---         Subscribe          -->
 <--- -------------------------- -*/
 
-/* Mobile */
-@media only screen and (min-width: 0em) {
-    #cta {
-        padding: (50/16rem) 0;
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #subscribe-1718 {
+        background-color: #1A1A1A;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
         position: relative;
+        z-index: 1;
 
-        &:before {
-            content: "";
+        .cs-container {
             width: 100%;
-            height: 100%;
-            background: #000;
-            opacity: 0.7;
-            display: block;
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: -1;
+            /* changes to 1312px at tablet */
+            max-width: (550/16rem);
+            margin: auto;
+            padding: var(--sectionPadding);
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
         }
 
-        .container {
-            text-align: center;
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            max-width: (630/16rem);
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+            position: relative;
+            z-index: 1;
         }
 
-        picture {
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: -2;
+        .cs-title {
+            max-width: 20ch;
+            color: var(--bodyTextColorWhite);
+        }
 
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                position: absolute;
-                top: 0;
-                left: 0;
+        .cs-text {
+            margin-bottom: (16/16rem);
+            color: var(--bodyTextColorWhite);
+            opacity: .8;
+            &:last-of-type {
+                margin-bottom: (32/16rem);
             }
         }
 
-        .title {
-            font-size: ~"min(9vw, 3rem)";
-            font-weight: 900;
-            line-height: (58/48em);
-            text-align: center;
-            margin-bottom: (36/16rem);
-            color: #fff;
-            position: relative;
+        .cs-form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: (16/16rem);
         }
 
-        p {
-            text-align: center;
-            width: 96%;
-            max-width: (598/16rem);
-            margin: auto;
-            margin-bottom: (36/16rem);
-            color: #fff;
-            opacity: 1;
-        }
-    }
-}
-
-/* Small Desktop */
-@media only screen and (min-width: 64em) {
-    #cta {
-        padding: (168/16rem) 0;
-    }
-}
-
-/* Large Desktop */
-@media only screen and (min-width: 1300px) {
-    #cta {
-        margin-top: (100/16rem);
-        position: relative;
-        &:before {
-            display: none;
-        }
-        &:after {
-            content: "";
-            width: (2000/16rem);
-            height: (1108/16rem);
-            background: url("/assets/svgs/cta-squares.svg");
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            opacity: 1;
+        .cs-input {
+            font-size: (16/16rem);
+            width: 100%;
+            height: clamp(2.875rem, 5.5vw, 3.5rem);
+            margin: 0;
+            padding: 0;
+            padding-left: (20/16rem);
+            border: none;
+            /* prevents padding from adding to width and height */
+            box-sizing: border-box;
             display: block;
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            z-index: -3;
-            transform: translateX(-50%);
-        }
-        .container {
-            width: 90.0625%;
-            margin: auto;
+            &::placeholder {
+                color: #767676;
+            }
         }
 
-        picture {
-            width: 90.0625%;
-            left: 50%;
-            transform: translateX(-50%);
+        .cs-button-solid {
+            font-size: (16/16rem);
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-decoration: none;
+            font-weight: 700;
+            text-align: center;
+            margin: 0;
+            color: #fff;
+            min-width: (150/16rem);
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
 
             &:before {
                 content: "";
-                width: 100%;
+                position: absolute;
                 height: 100%;
+                width: 0%;
                 background: #000;
-                opacity: 0.7;
-                display: block;
+                opacity: 1;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                transition: width 0.3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-submit {
+            width: 100%;
+            border: none;
+            color: var(--bodyTextColorWhite);
+            
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .cs-background {
+            width: 100%;
+            height: 100vw;
+            max-height: (400/16rem);
+            display: block;
+            order: -1;
+            position: relative;
+            z-index: 2;
+
+            img {
                 position: absolute;
                 top: 0;
                 left: 0;
-                z-index: 1;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
             }
+        }
+
+        .cs-floater {
+            /* 296px - 450px */
+            width: clamp(18.5rem, 35vw, 28.125rem);
+            height: auto;
+            opacity: .04;
+            position: absolute;
+            right: (-129/16rem);
+            top: (-150/16rem);
+            z-index: -1;
         }
     }
 }
 
-/* Dark Mode */
-@media only screen and (min-width: 0em) {
-    body.dark-mode {
-        #cta {
-            &:after {
-                display: none;
-            }
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #subscribe-1718 {
+        flex-direction: row;
+        align-items: stretch;
+
+        .cs-container {
+            max-width: (1312/16rem);
+            align-items: flex-end;
+        }
+
+        .cs-content {
+            width: 45vw;
+            max-width: (630/16rem);
+        }
+
+        .cs-background {
+            width: 50%;
+            max-height: 100%;
+            height: 100%;
+            position: absolute;
+            right: 50%;
         }
     }
 }
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #subscribe-1718 {
+        .cs-content {
+            /* remove the positioning so the cs-floater is now absolutely positioned to the nearest parent that has a declared position relative, which is the section parent */
+            position: initial;
+        }
+
+        .cs-form {
+            flex-direction: row;
+        }
+
+        .cs-button-solid {
+            width: auto;
+        }
+
+        .cs-floater {
+            top: 50%;
+            right: (-200/16rem);
+            transform: translateY(-50%);
+        }
+    }
+}
+      
+/* Large Desktop - 1300px */
+@media only screen and (min-width: 81.25rem) {
+    #subscribe-1718 {
+        .cs-content {
+            width: 100%;
+        }
+
+        .cs-background {
+            margin-right: (118/16rem);
+        }
+    }
+}
+                                
 
 /*-- -------------------------- -->
 <---          Footer            -->
