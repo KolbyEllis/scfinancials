@@ -4,7 +4,6 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #meet-team-860 {
-    padding: var(--sectionPadding);
     overflow: hidden;
   }
   #meet-team-860 .cs-container {
@@ -167,6 +166,11 @@
 }
 /* Tablet - 600px */
 @media only screen and (min-width: 37.5rem) {
+  #meet-team-860 .cs-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   #meet-team-860 .cs-card-group {
     flex-direction: row;
     flex-wrap: wrap;
