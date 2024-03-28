@@ -525,7 +525,7 @@
   .blog-article #blog-content a {
     font-size: inherit;
     text-decoration: underline;
-    color: var(--secondary);
+    color: var(--primary);
   }
   .blog-article #blog-content ul,
   .blog-article #blog-content ol {
