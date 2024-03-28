@@ -5,7 +5,7 @@
 @media only screen and (min-width: 0rem) {
   #stats-1643 {
     padding: var(--sectionPadding);
-    background-color: #F7F7F7;
+    background-color: #f7f7f7;
   }
   #stats-1643 .cs-container {
     width: 100%;
@@ -201,7 +201,7 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background-color: white;
+    background-color: #ffffff;
   }
   #meet-team-1348 a {
     text-decoration: none;
@@ -463,7 +463,7 @@
     padding: clamp(1rem, 3vw, 1.5rem);
     /* prevents padding from affecting height and width */
     box-sizing: border-box;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     border-radius: 1rem;
     border: 1px solid #e8e8e8;
     display: flex;
@@ -568,6 +568,7 @@
     overflow: hidden;
     position: relative;
     z-index: 1;
+    background-color: #ffffff;
   }
   #reviews-510 .cs-container {
     width: 100%;
@@ -688,7 +689,7 @@
     margin: 0;
     /* in case one card has more text than the other, this pushes up against the review text so the name and title are always at the bottom. Only works if parent is a flexbox */
     margin-top: auto;
-    color: var(--headerColor);
+    color: var(--primary);
     display: block;
   }
   #reviews-510 .cs-job {
@@ -697,7 +698,7 @@
     line-height: 1.5em;
     font-weight: 400;
     margin: 0;
-    color: #746f95;
+    color: black;
     display: block;
   }
 }
