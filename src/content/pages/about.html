@@ -16,87 +16,427 @@ eleventyNavigation:
 
 {% block body %}
 
+{% include 'components/banner.html' %}
+                            
 <!-- ============================================ -->
-<!--                   Banner                     -->
+<!--                    Stats                     -->
 <!-- ============================================ -->
 
-<div id="banner-1519">
+<section id="stats-1643">
     <div class="cs-container">
-        <span class="cs-int-title">About Us</span>
-        <div class="cs-breadcrumbs">
-            <a href="" class="cs-link">Home</a>
-            <a href="" class="cs-link cs-active">About</a>
+        <div class="cs-content">
+            <span class="cs-topper">Trusted Spokane Financial Advisors Near You</span>
+            <h2 class="cs-title">Meeting face-to-face in Spokane or virtually across the United States since 1998
+            </h2>
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/team_photo-m.png">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/team_photo.png">
+                <img loading="lazy" decoding="async" src="/assets/images/team_photo.png" alt="people" width="608" height="406">
+            </picture>
+        </div>
+        <div class="cs-stats-group">
+            <!--Red Quote-->
+        </br>
+            <p class="cs-text">
+                Finding unbiased financial advice is difficult. That's why at Stewardship Concepts, we are fee-only which means we do not receive any commissions or sells any products on our services. We are only paid on the investments we manage.Our team of financial advisors in Spokane have our <strong>CERTIFIED FINANCIAL PLANNERS™</strong> designation which is the <strong>gold standard</strong> for financial advisors. You can have confidence in us because of our experience and peace of mind because it's our fiduciary duty to do what's in your best interest. <strong>If you aren't satisfied with our services we promise a 100% money back guarantee.</strong>
+
+            </p>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">01</span>
+                        <h3 class="cs-h3">
+                            Investment Management
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        On-going financial investment management to help you reach retirement goals. Diversification, quality, and objective based.
+                    
+                    </p>   
+                    <a href="financial_planning" class="cs-button-solid">Investment Management Services</a>
+             
+                </li>
+                <li class="cs-item">
+                    <div class="wrapper">
+                        <span class="cs-item-number">02</span>
+                        <h3 class="cs-h3">
+                            Financial Planning                        
+                        </h3>
+                    </div>
+                    <p class="cs-item-text">
+                        On-going financial investment management to help you reach retirement goals. Diversification, quality, and objective based.</p>
+                        <a href="financial_planning" class="cs-button-solid">Financial Planning Services</a>
+
+                    </li>
+            </ul>
+            <ul class="cs-stats">
+                <li class="cs-stat stat1">
+                    <span class="cs-number">100%</span>
+                    <span class="cs-desc">Positive feedback</span>
+                </li>
+                <li class="cs-stat stat2">
+                    <span class="cs-number">Zero</span>
+                    <span class="cs-desc">Comissions</span>
+                </li>
+                <li class="cs-stat stat3">
+                    <span class="cs-number">$80,000,000</span>
+                    <span class="cs-desc">investments managed as of 1/1/2024</span>
+                </li>
+                <li class="cs-stat stat4">
+                    <span class="cs-number">9.5K+</span>
+                    <span class="cs-desc">Happy customers</span>
+                </li>
+            </ul>
         </div>
     </div>
-    <!--Background Image-->
-    <picture class="cs-background">
-        <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids-playing2.jpg">
-        <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids-playing2.jpg">
-        <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids-playing2.jpg" alt="people laughing" width="1280" height="568" aria-hidden="true">
-    </picture>
-    <svg class="cs-mask" xmlns="http://www.w3.org/2000/svg" width="1920" height="136" viewBox="0 0 1920 136" fill="none">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M1920 136V0C1803.21 45.3334 1445.52 136 951 136C456.485 136 111.116 45.3334 0 0V136H951H1920Z" fill="var(--maskBG)"/>
-    </svg>
-</div>
+</section>             
+
+<!-- ============================================ -->
+<!--                Meet the Team                 -->
+<!-- ============================================ -->
+
+<section id="meet-team-1348">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Meet The Team</span>
+            <h2 class="cs-title">The People Behind Stewardship Concepts</h2>
+            <p class="cs-text">
+                From creative minds to strategic thinkers, our team is united by a shared commitment to excellence and a relentless pursuit of success. Together, we collaborate, inspire, and deliver results that exceed expectations.            </p>
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-picture-wrapper">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)"
+                                srcset="/assets/images/noah-m.png">
+                        <source media="(min-width: 601px)"
+                                srcset="/assets/images/noah.png">
+                        <img decoding="async"
+                                src="/assets/images/noah.png"
+                                alt="person" width="413" height="374" aria-hidden="true">
+                    </picture>
+                    <div class="cs-social">
+                        <a href="" class="cs-link" aria-label="Twitter" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook1a.svg" alt="facebook"
+                                        width="22" height="22">
+                        </a>
+                        <a href="" class="cs-link" aria-label="Linked in" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram1a.svg" alt="instagram"
+                                        width="17" height="16">
+                        </a>
+                        <a href="" class="cs-link" aria-label="Twitter" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter1a.svg" alt="twitter"
+                                        width="22" height="22">
+                        </a>
+                        <a href="" class="cs-link" aria-label="Linked in" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube1a.svg" alt="youtube"
+                                        width="17" height="16">
+                        </a>
+                    </div>
+                </div>
+                <a href="/noah_schwab">
+                <div class="cs-info">
+
+                    <span class="cs-name">Noah Schwab, CFP®</span>
+                    <span class="cs-job">Financial Advisor, Owner</span>
+              
+                </div>
+            </a>
+            </li>
+            <li class="cs-item">
+                <div class="cs-picture-wrapper">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)"
+                                srcset="/assets/images/amy-m.png">
+                        <source media="(min-width: 601px)"
+                                srcset="/assets/images/amy.png">
+                        <img decoding="async"
+                                src="/assets/images/amy.png"
+                                alt="person" width="413" height="374" aria-hidden="true">
+                    </picture>
+                    <div class="cs-social">
+                        <a href="" class="cs-link" aria-label="Twitter" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook1a.svg" alt="facebook"
+                                        width="22" height="22">
+                        </a>
+                        <a href="" class="cs-link" aria-label="Linked in" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram1a.svg" alt="instagram"
+                                        width="17" height="16">
+                        </a>
+                        <a href="" class="cs-link" aria-label="Twitter" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter1a.svg" alt="twitter"
+                                        width="22" height="22">
+                        </a>
+                        <a href="" class="cs-link" aria-label="Linked in" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube1a.svg" alt="youtube"
+                                        width="17" height="16">
+                        </a>
+                    </div>
+                </div>
+                <a href="/amy_drury">
+                <div class="cs-info">
+                    <span class="cs-name">Amy Drury, CFP®</span>
+                    <span class="cs-job">Financial Advisor, Owner</span>
+                </div>
+                </a>
+            </li>
+            <li class="cs-item">
+                <div class="cs-picture-wrapper">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)"
+                                srcset="/assets/images/edwin-m.png.png">
+                        <source media="(min-width: 601px)"
+                                srcset="/assets/images/edwin.png">
+                        <img decoding="async"
+                                src="/assets/images/edwin.png"
+                                alt="person" width="413" height="374" aria-hidden="true">
+                    </picture>
+                    <div class="cs-social">
+                        <a href="" class="cs-link" aria-label="Twitter" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook1a.svg" alt="facebook"
+                                        width="22" height="22">
+                        </a>
+                        <a href="" class="cs-link" aria-label="Linked in" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram1a.svg" alt="instagram"
+                                        width="17" height="16">
+                        </a>
+                        <a href="" class="cs-link" aria-label="Twitter" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter1a.svg" alt="twitter"
+                                        width="22" height="22">
+                        </a>
+                        <a href="" class="cs-link" aria-label="Linked in" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube1a.svg" alt="youtube"
+                                        width="17" height="16">
+                        </a>
+                    </div>
+                </div>
+                <a href="/edwin_hill">
+                <div class="cs-info">
+                    <span class="cs-name">Edwin Hill, CFP®</span>
+                    <span class="cs-job">Financial Advisor, Founder</span>
+                </div>
+                </a>
+            </li>
+            <li class="cs-item">
+                <div class="cs-picture-wrapper">
+                    <picture class="cs-picture">
+                        <source media="(max-width: 600px)"
+                                srcset="/assets/images/kate-m.png">
+                        <source media="(min-width: 601px)"
+                                srcset="/assets/images/kate-m.png">
+                        <img decoding="async"
+                                src="/assets/images/kate-m.png"
+                                alt="person" width="413" height="374" aria-hidden="true">
+                    </picture>
+                    <div class="cs-social">
+                        <a href="" class="cs-link" aria-label="Twitter" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/facebook1a.svg" alt="facebook"
+                                        width="22" height="22">
+                        </a>
+                        <a href="" class="cs-link" aria-label="Linked in" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/instagram1a.svg" alt="instagram"
+                                        width="17" height="16">
+                        </a>
+                        <a href="" class="cs-link" aria-label="Twitter" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/twitter1a.svg" alt="twitter"
+                                        width="22" height="22">
+                        </a>
+                        <a href="" class="cs-link" aria-label="Linked in" target="_blank" rel="noopener">
+                            <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async"
+                                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/youtube1a.svg" alt="youtube"
+                                        width="17" height="16">
+                        </a>
+                    </div>
+                </div>
+                <a href="/kate_altine">
+                <div class="cs-info">
+                    <span class="cs-name">Kate Altine</span>
+                    <span class="cs-job">Office Representative</span>
+                </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
                                 
-    <!-- ============================================ -->
-    <!--                    LANDING                   -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                 Why Choose                   -->
+<!-- ============================================ -->
 
-    <section id="int-hero">
-        <h1 id="home-h">About Us</h1>
-        <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
-        </picture>
+<section id="why-choose-1371">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Our Core Values</span>
+            <h2 class="cs-title">Embodying Excellence: Our Core Values</h2>
+            <p class="cs-text">
+                At Stewardship Concepts, our core values are the cornerstone of our identity and guide every aspect of our operations. These values define who we are and inspire us to continually strive for excellence in serving our clients and communities </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/why1.svg" alt="icon" width="24" height="24">
+                    Trust
+                </h3>
+                <p class="cs-item-text">
+                    As financial advisors, we understand the significance of trust in building enduring relationships. We prioritize transparency and accountability to ensure our clients feel confident in every decision made.
 
-    </section>
-
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
-
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
                 </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/why2.svg" alt="icon" width="24" height="24">
+                    Helping People
+                </h3>
+                <p class="cs-item-text">
+                    Our mission is to empower individuals and families by providing personalized financial guidance tailored to their unique needs and aspirations.
+
+
+
+                </p>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/why3.svg" alt="icon" width="24" height="24">
+                    Transparency
+                </h3>
+                <p class="cs-item-text">
+                    We believe in transparent communication and full disclosure of information to ensure our clients have a clear understanding of their financial options.
+
+
+
+                </p>
+            </li>
+            <li class="cs-item-picture">
+                <picture class="cs-picture">
+                    <a href="https://www.youtube.com/watch?v=51k-Y7-kdaM&embeds_referring_euri=https%3A%2F%2Fscfinancials.com%2F&source_ve_path=Mjg2NjY&feature=emb_logo">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/why_us-m.png">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/why_us.png">
+                    <img loading="lazy" decoding="async" src="/assets/images/why_us.png" alt="therapy" width="608" height="400">
+                </a>
+                </picture>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/why4.svg" alt="icon" width="24" height="24">
+                    Excellence
+                </h3>
+                <p class="cs-item-text">
+                    We strive for excellence in everything we do, from delivering exceptional service to continuously improving our expertise to better serve our clients.
+
+
+
+                </p>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/why5.svg" alt="icon" width="24" height="24">
+                    Teamwork approach
+                </h3>
+                <p class="cs-item-text">
+                    Collaboration is at the heart of our success, as we leverage the diverse talents and perspectives of our team to provide comprehensive financial solutions.
+
+
+
+                </p>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/why6.svg" alt="icon" width="24" height="24">
+                    Unbiased recommendations
+                </h3>
+                <p class="cs-item-text">
+                    Our commitment to objectivity means that our recommendations are solely based on what is best for our clients' financial well-being, free from any conflicts of interest.
+
+
+
+
+
+
+
+
+
+
+
+                </p>
+            </li>
+        </ul>
+        <a href="" class="cs-button-solid">Schedule a Consultation Today</a>
+    </div>
+</section>
+                                
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-510">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-title-group">
+                <span class="cs-topper">Reviews</span>
+                <h2 class="cs-title">Our Clients Love Us</h2>
+            </div>
+            <p class="cs-text">
+                Dive into firsthand experiences shared by our clients to understand why Stewardship Concepts stands out as a trusted and top-notch financial advisor in Spokane             </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <!--Blue Quote-->
+                <img class="cs-quote" aria-hidden="true" src="/assets/images/quote.svg" decoding="async" alt="quote icon" width="40" height="46">
+                <p class="cs-item-text">
+                    Superb service! Always available to give guidance and answer questions. Clear and helpful communication. Our investment is in good hand!
                 </p>
                 <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
+                    <picture class="cs-picture">
+                        <img class="cs-profile" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile2.jpg" decoding="async" alt="profile" width="50" height="50" aria-hidden="true">
+                    </picture>
+                    <span class="cs-name">
+                        Shawn Cernik
+                        <span class="cs-job">Client of Stewardship Concepts</span>
+                    </span>
                 </div>
-                <a href="/projects" class="cs-button-solid">Our Projects</a>
-            </div>
-        </div>
-    </section>
+            </li>
+            <li class="cs-item">
+                <!--Blue Quote-->
+                <img class="cs-quote" aria-hidden="true" src="/assets/images/quote.svg" decoding="async" alt="quote icon" width="40" height="46">
+                <p class="cs-item-text">
+                    Edwin Hill and staff have guided our families financial interests in for years with integrity, honesty and results. They are all true "Stewards".
+                </p>
+                <div class="cs-flex-group">
+                    <picture class="cs-picture">
+                        <img class="cs-profile" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile3.png" decoding="async" alt="profile" width="50" height="50" aria-hidden="true">
+                    </picture>
+                    <span class="cs-name">
+                        Ryan West
+                        <span class="cs-job">Client of Stewardship Concepts</span>
+                    </span>
+                </div>
+            </li>
+        </ul>
+        <a href="https://www.google.com/search?q=stewardship+concepts&sca_esv=9fb7e5799ecea4f2&rlz=1C1VDKB_enUS1004US1004&sxsrf=ACQVn0_haHBkMPL-Di_JAjB9J43jvvoBUw%3A1711305725235&ei=_XMAZo7_DajwkPIP796C4AI&ved=0ahUKEwjO8erOxo2FAxUoOEQIHW-vACwQ4dUDCBA&uact=5&oq=stewardship+concepts&gs_lp=Egxnd3Mtd2l6LXNlcnAiFHN0ZXdhcmRzaGlwIGNvbmNlcHRzMgQQIxgnMgoQIxiABBiKBRgnMgQQIxgnMhAQLhivARjHARiABBiKBRgnMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDSNoUULgIWNYQcAJ4AJABAJgBf6AB2AWqAQMzLjS4AQPIAQD4AQGYAgegAucFmAMAiAYBkgcDMy40oAfnKQ&sclient=gws-wiz-serp#ip=1&lrd=0x549e1eaa5dae680f:0x6cf157e8630ef444,1,,,," class="cs-button-solid">See More Reviews On Google</a>
+    </div>
+</section>                             
 
-    {% include 'components/cta.html' %}
+{% include 'components/cta.html' %}
 
 {% endblock %}

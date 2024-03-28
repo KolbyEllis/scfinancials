@@ -14,30 +14,7 @@ permalink: 'noah_schwab/'
 
 {% block body %}
 
-<!-- ============================================ -->
-<!--                   Banner                     -->
-<!-- ============================================ -->
-
-<div id="banner-1519">
-    <div class="cs-container">
-        <span class="cs-int-title">About Us</span>
-        <div class="cs-breadcrumbs">
-            <a href="" class="cs-link">Home</a>
-            <a href="" class="cs-link cs-active">About</a>
-        </div>
-    </div>
-    <!--Background Image-->
-    <picture class="cs-background">
-        <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids-playing2.jpg">
-        <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids-playing2.jpg">
-        <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/kids-playing2.jpg" alt="people laughing" width="1280" height="568" aria-hidden="true">
-    </picture>
-    <svg class="cs-mask" xmlns="http://www.w3.org/2000/svg" width="1920" height="136" viewBox="0 0 1920 136" fill="none">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M1920 136V0C1803.21 45.3334 1445.52 136 951 136C456.485 136 111.116 45.3334 0 0V136H951H1920Z" fill="var(--maskBG)"/>
-    </svg>
-</div>
+{% include 'components/banner.html' %}
                                 
 <!-- ============================================ -->
 <!--                 Content Page                 -->
@@ -95,7 +72,6 @@ permalink: 'noah_schwab/'
         <div class="cs-content">
             <h1 class="cs-title">Your Spokane Financial Advisor <span class="cs-color">Noah Schwab</span></h1>
             <h2>Things to Know</h2>
-            <h4>Things to Know</h4>
             <p>
                 Owner of Stewardship Concepts Financial Services.            
             </p>
@@ -110,7 +86,13 @@ permalink: 'noah_schwab/'
             </p>
             <p>He is a frequent featured expert on many popular financial news sources. He writes for the Spokane Journal of Business and is a featured expert on many websites such as Yahoo News, MarketWatch, U.S. News, Next Avenue, and GoBankingRates. Noah is passionate about financial literacy. He is writing a financial education book and has helped facilitate Financial Peace University at his church, <a href="https://www.truehopechurch.org/">True Hope</a>. He is a FPA, CFP, NAPFA, and Spokane Financial Advisors Network member.
             </p>
-            <h4>Noah Can Help With:</h4>
+            <h2>Fun Facts About Noah Schwab:</h2>
+            <ol>
+            <li>One of Noah's favorite trips was riding a motorbike the length of Vietnam</li>
+            <li>Noah loves camping with his wife Jenny</li>
+            <li>Noah actively attends True Hope Church</li>
+            </ol>
+            <h2>Noah Can Help With:</h2>
             <ul>
                 <li>Transitioning to retirement</li>
                 <li>401k</li>
