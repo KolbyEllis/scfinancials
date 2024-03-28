@@ -97,24 +97,16 @@ We will never escape inflation and sequence risk entirely. But through prudent p
 
 As an advisor, I specialize in helping small business owners save time so they can do more of what is really important.
 
-## About the Author
-
-**Noah Schwab** CFP® is a financial planner in Spokane, Washington who specializes in helping small business owners with retirement plans and personal finances.
-
 ## Learn more:
 
-**Our website:** https://scfinancials.com/
+<a href="https://scfinancials.com/">**Visit Our Website** </a>
 
-**Inflation:** https://www.investopedia.com/terms/i/inflation.asp
+<a href="https://www.investopedia.com/terms/i/inflation.asp">**Inflation Article** </a>
 
-**Series I bond:** https://www.investopedia.com/terms/s/seriesibond.asp
+<a href="https://www.investopedia.com/terms/s/seriesibond.asp">**Series I bond** </a>
 
-**TIPS:** https://www.investopedia.com/terms/t/tips.asp
+<a href="https://www.investopedia.com/terms/t/tips.asp">**Tips** </a>
 
-**High yield savings:** https://www.nerdwallet.com/best/banking/high-yield-online-savings-accounts
+<a href="https://www.nerdwallet.com/best/banking/high-yield-online-savings-accounts">**High Yield Savings** </a>
 
-**Sequence risk:** https://www.investopedia.com/terms/s/sequence-risk.asp#:~:text=Timing%20is%20everything.-,Sequence%20risk%20is%20the%20danger%20that%20the%20timing%20of%20withdrawals,your%20savings%20against%20sequence%20risk.
-
-**Share this post:** 
-
-![]()
+<a href="https://www.investopedia.com/terms/s/sequence-risk.asp#:~:text=Timing%20is%20everything.-,Sequence%20risk%20is%20the%20danger%20that%20the%20timing%20of%20withdrawals,your%20savings%20against%20sequence%20risk.">**Sequence Risk**</a>
