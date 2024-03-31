@@ -3,18 +3,17 @@
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #banner-1519 {
+  #banner-1400 {
     padding: var(--sectionPadding);
     /* 190px - 268px */
     padding-top: clamp(11.875rem, 25vw, 16.75rem);
-    /* 100px - 150px */
-    padding-bottom: clamp(6.25rem, 12vw, 9.375rem);
+    padding-bottom: 6.25rem;
     /* clips the line from causing overflow issues for going off screen */
     overflow: hidden;
     position: relative;
     z-index: 1;
   }
-  #banner-1519 .cs-container {
+  #banner-1400 .cs-container {
     text-align: center;
     width: 100%;
     max-width: 80rem;
@@ -26,51 +25,54 @@
     /* 8px - 12px */
     gap: clamp(0.5rem, 1vw, 0.75rem);
   }
-  #banner-1519 .cs-int-title {
+  #banner-1400 .cs-int-title {
     /* 39px - 61px */
     font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
     font-weight: 900;
     line-height: 1.2em;
     text-align: inherit;
     margin: 0;
-    color: var(--headercolor);
+    color: var(--bodyTextColorWhite);
     position: relative;
   }
-  #banner-1519 .cs-breadcrumbs {
+  #banner-1400 .cs-breadcrumbs {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  #banner-1519 .cs-link {
+  #banner-1400 .cs-link {
     font-size: 1rem;
     line-height: 1.2em;
     text-decoration: none;
-    color: var(--bodyTextColor);
+    color: var(--bodyTextColorWhite);
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  #banner-1519 .cs-link:last-of-type::after {
+  #banner-1400 .cs-link:last-of-type {
+    /* remove the chevron on the last list item */
+  }
+  #banner-1400 .cs-link:last-of-type::after {
     display: none;
   }
-  #banner-1519 .cs-link:after {
+  #banner-1400 .cs-link:after {
     /* chevron */
-    content: '';
+    content: "";
     width: 0.4375rem;
     height: 0.75rem;
     margin: 0 1rem;
-    background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/grey-chevron.svg");
+    background: url("https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/white-chev.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
     display: block;
   }
-  #banner-1519 .cs-link.cs-active {
+  #banner-1400 .cs-link.cs-active {
     color: var(--primary);
   }
-  #banner-1519 .cs-background {
+  #banner-1400 .cs-background {
     width: 100%;
     height: 100%;
     display: block;
@@ -79,20 +81,34 @@
     left: 0;
     z-index: -1;
   }
-  #banner-1519 .cs-background:before {
+  #banner-1400 .cs-background:before {
     /* gradient overlay */
-    content: '';
+    content: "";
     width: 100%;
     height: 100%;
-    background: #FFF3EC;
-    opacity: 0.8;
+    background: #000;
+    opacity: 0.4;
     position: absolute;
     display: block;
     top: 0;
     left: 0;
     z-index: 1;
   }
-  #banner-1519 .cs-background img {
+  #banner-1400 .cs-background:after {
+    /* gradient overlay */
+    content: "";
+    width: 100%;
+    height: 40%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(rgba(0, 0, 0, 0)));
+    background: -o-linear-gradient(top, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  #banner-1400 .cs-background img {
     position: absolute;
     top: 0;
     left: 0;
@@ -101,23 +117,15 @@
     /* Makes img tag act as a background image */
     object-fit: cover;
   }
-  #banner-1519 .cs-mask {
-    --maskBG: #f7f7f7;
-    width: 100%;
-    height: auto;
-    display: block;
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    z-index: 100;
-  }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-  #banner-1519 .cs-background:before {
-    width: 100%;
+  #banner-1400 .cs-background:before {
+    width: 50%;
     height: 100%;
-    background: linear-gradient(90deg, rgba(255, 243, 236, 0.9) 23.05%, rgba(255, 243, 236, 0) 80.08%);
+    background: -webkit-gradient(linear, left top, right top, from(#000000), to(rgba(0, 0, 0, 0)));
+    background: -o-linear-gradient(left, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to right, #000000 0%, rgba(0, 0, 0, 0) 100%);
     opacity: 1;
   }
 }

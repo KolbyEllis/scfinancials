@@ -5,6 +5,7 @@
 @media only screen and (min-width: 0rem) {
   #sbs-1431 {
     padding: var(--sectionPadding);
+    padding-top: 0;
     overflow: hidden;
     margin-top: 10rem;
   }
@@ -84,7 +85,7 @@
     left: 0;
   }
   #sbs-1431 .cs-li-icon {
-    width: 2rem;
+    width: 3rem;
     height: auto;
     display: block;
   }
@@ -220,7 +221,7 @@
     margin: 0;
   }
   #why-choose-1571 .cs-topper {
-    color: var(--secondary);
+    color: var(--primary);
   }
   #why-choose-1571 .cs-card-wrapper {
     width: 100%;

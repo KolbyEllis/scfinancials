@@ -99,41 +99,6 @@
     margin-bottom: 2.25rem;
     color: #fff;
   }
-  #hero-509 .cs-button-solid {
-    font-size: 1rem;
-    line-height: 3.5rem;
-    text-decoration: none;
-    font-weight: 700;
-    margin: auto;
-    color: white;
-    padding: 0 1.5rem;
-    background-color: var(--primary);
-    border-radius: 0.25rem;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    transition: color 0.3s;
-  }
-  #hero-509 .cs-button-solid:before {
-    content: "";
-    position: absolute;
-    display: block;
-    height: 100%;
-    width: 0%;
-    background: #000;
-    opacity: 1;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    border-radius: 0.25rem;
-    transition: width 0.3s;
-  }
-  #hero-509 .cs-button-solid:hover {
-    color: #fff;
-  }
-  #hero-509 .cs-button-solid:hover:before {
-    width: 100%;
-  }
   #hero-509 .cs-card-group {
     width: 100%;
     padding: 0;
@@ -161,7 +126,7 @@
     width: 100%;
     height: 100%;
     background: #fafbfc;
-    opacity: 0.3;
+    opacity: 0.4;
     /* prevents the mouse from interacting with it */
     pointer-events: none;
     position: absolute;
@@ -196,6 +161,9 @@
     color: var(--headerColor);
     position: relative;
     z-index: 10;
+  }
+  #hero-509 .cs-h2:hover {
+    color: #ffffff;
   }
   #hero-509 .cs-picture {
     width: 100%;
