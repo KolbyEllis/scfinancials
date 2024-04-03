@@ -55,34 +55,36 @@ Luckily, we were able to wait and fill up our tank at the next gas station, payi
 
 Future gas prices may lead to scary numbers, but not all inflation is bad. Inflation fuels higher valuations for stocks and other assets. 
 
-<div class="container-pic-right">
-   <img src="/assets/images/blog/image-22.png" alt="cost of gallon of gas" height="90px">
-   <div class="text-left">
+<div class="container-pic-center">
+   <img src="/assets/images/blog/image-22.png" alt="cost of gallon of gas" width="50%">
+   <div class="text-center">
       The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
    </div>
 </div>
 
 <style>
-.container-pic-right {
+.container-pic-center{
    display: flex;
-   flex-direction: row-reverse;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
    margin: 1rem;
 }
 
-.text-left{
+.text-center{
    margin: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
-   .container-pic-right {
+   .container-pic-center {
       flex-direction: column;
    }
 
-   .container-pic-right img {
+   .container-pic-center img {
       max-width: 100%; /* Make image full width on smaller screens */
    }
 
-   .text-left {
+   .text-center {
       margin-left: 0; /* Remove left margin on smaller screens */
    }
 
