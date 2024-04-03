@@ -58,43 +58,44 @@ Future gas prices may lead to scary numbers, but not all inflation is bad. Infla
 
 The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
 
-<div class="container-pic-right">
+<div class="container-pic-left2">
    <img src="/assets/images/blog/image-22.png" alt="cost of gallon of gas" height="120px">
-   <div class="text-left">
-      <p>In our low-interest rate environment, savers get almost nothing in return for their savings. The real pain for savers comes with 2022’s inflation rate of 8.6%. Everything costs more. </p>
+   <div class="text-right2">
+      <p>The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
+
+ </p>
    
    </div>
 </div>
 
 <style>
-.container-pic-right {
+.container-pic-left2{
    display: flex;
-   flex-direction: row-reverse;
+  flex-direction: row-reverse;
    margin: 1rem;
 }
 
-.text-left {
+.text-right2 {
    flex-direction: column;
    margin: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
-   .container-pic-right {
+   .container-pic-left2 {
       flex-direction: column;
    }
 
-   .container-pic-left img {
+   .container-pic-left2 img {
       max-width: 100%; /* Make image full width on smaller screens */
    }
 
-   .text-right {
+   .text-right2 {
       margin-left: 0; /* Remove left margin on smaller screens */
    }
 
 </style>
 
 Savers that keep their savings in cash are getting hurt right now in two ways. Cash is horrible with inflation and great when there are high-interest rates. Right now, we have high inflation and low-interest rates. 
-
 
 <div class="container-pic-left2">
    <img src="/assets/images/blog/image-23-3-.png" alt="inflation chart" height="90px">
@@ -107,7 +108,6 @@ Savers that keep their savings in cash are getting hurt right now in two ways. C
 <style>
 .container-pic-left2{
    display: flex;
-  flex-direction: row-reverse;
    margin: 1rem;
 }
 
