@@ -20,12 +20,11 @@ My wife Jenny and I experienced inflation on our recent road trip to the Grand C
 Luckily, we were able to wait and fill up our tank at the next gas station, paying over $6 a gallon.
 
 <div class="container-pic-left">
-   <img src="/assets/images/blog/rectangle-3.png" alt="gas prices in mono lake California">
+   <img src="/assets/images/blog/rectangle-3.png" alt="gas prices in mono lake California" height="200px">
    <div class="text">
       <p><strong>Inflation</strong> is the value of a currency decreases while prices increase.</p>
       <p><strong>Example:</strong> When gas rises from $3.92 to $4.92 a gallon, it costs more for the same amount of gas - meaning every dollar you own is now worth less.</p>
       <p>The cost of a gallon of gas just over 40 years ago was $0.65. If the same trend continues, it will eventually be about $25 per gallon in 30 years.</p>
-
    </div>
 </div>
 
@@ -39,7 +38,25 @@ Luckily, we were able to wait and fill up our tank at the next gas station, payi
    flex-direction: column;
    margin: 1rem;
 }
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+   .container-pic-left {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .text {
+      text-align: center;
+   }
+
+   .container-pic-left img {
+      width: 100%; /* Ensure the image takes up the full width of its container */
+      margin-bottom: 1rem; /* Add some space between the image and the text */
+   }
+}
 </style>
+
 
 The cost of a gallon of gas just over 40 years ago was $0.65. If the same trend continues, it will eventually be about $25 per gallon in 30 years. 
 
