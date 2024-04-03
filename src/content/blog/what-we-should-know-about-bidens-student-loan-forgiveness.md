@@ -27,7 +27,7 @@ President Biden stated on August 24th, that Americans will have up to $10,000 in
    <img src="/assets/images/blog/pell-grant.png" alt="pell grant" height="100px">
    <div class="text-left">
       
-      <p>To check if you received a Pell grant, visit: <a href="https://studentaid.gov/">studentaid.gov</a>. This is a government website where you applied for FAFSA. There’s a possibility your parents made an account and you’ll have to get the username and password from them. Once logged in, go to the aid summary page and you should see if you received a Pell Grant.</p>
+      <p>To check if you received a Pell grant, visifffft: <a href="https://studentaid.gov/">studentaid.gov</a>. This is a government website where you applied for FAFSA. There’s a possibility your parents made an account and you’ll have to get the username and password from them. Once logged in, go to the aid summary page and you should see if you received a Pell Grant.</p>
    </div>
 </div>
 
