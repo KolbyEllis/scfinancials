@@ -26,8 +26,6 @@ Luckily, we were able to wait and fill up our tank at the next gas station, payi
       <p><strong>Example:</strong> When gas rises from $3.92 to $4.92 a gallon, it costs more for the same amount of gas - meaning every dollar you own is now worth less.</p>
       <p>The cost of a gallon of gas just over 40 years ago was $0.65. If the same trend continues, it will eventually be about $25 per gallon in 30 years.</p>
    </div>
-</div>
-
 <style>
 .container-pic-left {
    display: flex;
@@ -53,6 +51,8 @@ Luckily, we were able to wait and fill up our tank at the next gas station, payi
    }
 
 </style>
+
+</div>
 
 Future gas prices may lead to scary numbers, but not all inflation is bad. Inflation fuels higher valuations for stocks and other assets. 
 
@@ -105,7 +105,6 @@ Savers that keep their savings in cash are getting hurt right now in two ways. C
       <p>In our low-interest rate environment, savers get almost nothing in return for their savings. The real pain for savers comes with 2022’s inflation rate of 8.6%. Everything costs more. </p>
    
    </div>
-</div>
 
 <style>
 .container-pic-left2{
@@ -133,7 +132,7 @@ Savers that keep their savings in cash are getting hurt right now in two ways. C
 
 </style>
 
-
+</div>
 
 With inflation, cash is worth less because you can buy fewer goods with the same amount of money. If someone had $100,000 saved, with 8.6% inflation, the following year the same amount of money would have the purchasing power of $91,400. 
 
