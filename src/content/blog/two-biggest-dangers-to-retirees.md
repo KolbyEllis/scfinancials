@@ -54,9 +54,6 @@ Luckily, we were able to wait and fill up our tank at the next gas station, payi
 
 </style>
 
-
-The cost of a gallon of gas just over 40 years ago was $0.65. If the same trend continues, it will eventually be about $25 per gallon in 30 years. 
-
 Future gas prices may lead to scary numbers, but not all inflation is bad. Inflation fuels higher valuations for stocks and other assets. 
 
 The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
