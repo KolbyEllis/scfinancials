@@ -36,6 +36,7 @@ President Biden stated on August 24th, that Americans will have up to $10,000 in
    display: flex;
    flex-direction: column;
    align-items: center;
+   justify-content: center;
    margin: 1rem;
 }
 
