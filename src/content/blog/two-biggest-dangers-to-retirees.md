@@ -39,17 +39,6 @@ Luckily, we were able to wait and fill up our tank at the next gas station, payi
    margin: 1rem;
 }
 
-/* Media query for mobile devices */
-@media only screen and (max-width: 600px) {
-   .container-pic-left {
-     display: flex;
-     margin: 1rem;
-   }
-
-   .text {
-      margin: 1rem;
-   }
-}
 </style>
 
 
