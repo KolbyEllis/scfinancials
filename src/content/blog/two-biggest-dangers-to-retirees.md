@@ -56,29 +56,24 @@ Luckily, we were able to wait and fill up our tank at the next gas station, payi
 
 Future gas prices may lead to scary numbers, but not all inflation is bad. Inflation fuels higher valuations for stocks and other assets. 
 
-The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
-
 <div class="container-pic-right">
    <img src="/assets/images/blog/image-22.png" alt="cost of gallon of gas" height="90px">
    <div class="text-left">
-      <p>The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
-
- </p>
-   
+      The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
    </div>
 </div>
 
 <style>
 .container-pic-right {
    display: flex;
-  flex-direction: row-reverse;
+   flex-direction: row-reverse;
    margin: 1rem;
+   background-color: blue
 }
 
-.text-left {
+.text-left{
    flex-direction: column;
    margin: 1rem;
-   color: red;
 }
 
 @media only screen and (max-width: 600px) {
@@ -95,7 +90,6 @@ The government’s annual target is 2% inflation which helps our economy by enco
    }
 
 </style>
-
 
 Savers that keep their savings in cash are getting hurt right now in two ways. Cash is horrible with inflation and great when there are high-interest rates. Right now, we have high inflation and low-interest rates. 
 
