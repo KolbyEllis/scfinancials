@@ -19,11 +19,29 @@ My wife Jenny and I experienced inflation on our recent road trip to the Grand C
 
 Luckily, we were able to wait and fill up our tank at the next gas station, paying over $6 a gallon.
 
-![gas prices in mono lake california ](/assets/images/blog/rectangle-3.png "gas prices in mono lake california")
 
-**Inflation** is the value of a currency decreases while prices increase. 
+<div class="container-pic-left">
+   <img src="/assets/images/blog/rectangle-3.png" alt="gas prices in mono lake California">
+   <div class="text">
+      <p><strong>Inflation</strong> is the value of a currency decreases while prices increase.</p>
+      <p><strong>Example:</strong> When gas rises from $3.92 to $4.92 a gallon, it costs more for the same amount of gas - meaning every dollar you own is now worth less.</p>
+   </div>
+</div>
 
-**Example:** When gas rises from $3.92 to $4.92 a gallon, it costs more for the same amount of gas - meaning every dollar you own is now worth less. 
+<style>
+.container-pic-left {
+   display: flex;
+   margin: 1rem;
+}
+
+.text {
+   flex-direction: column;
+   margin: 1rem;
+}
+</style>
+
+
+
 
 The cost of a gallon of gas just over 40 years ago was $0.65. If the same trend continues, it will eventually be about $25 per gallon in 30 years. 
 
@@ -33,9 +51,13 @@ The government’s annual target is 2% inflation which helps our economy by enco
 
 ![cost of gallon of gas](/assets/images/blog/image-22.png "cost of gallon of gas")
 
+
+
 Savers that keep their savings in cash are getting hurt right now in two ways. Cash is horrible with inflation and great when there are high-interest rates. Right now, we have high inflation and low-interest rates. 
 
-![inflation chart](/assets/images/blog/image-23-3-.png "inflation chart")
+ <main class="main" >
+!\[inflation chart](/assets/images/blog/image-23-3-.png "inflation chart")
+</main>
 
 In our low-interest rate environment, savers get almost nothing in return for their savings. The real pain for savers comes with 2022’s inflation rate of 8.6%. Everything costs more. 
 
@@ -94,8 +116,6 @@ This hurts your portfolio because you have fewer shares of company XYZ to partic
 * Incorporate less stock correlated asset classes like gold, other commodities, and real estate.
 
 We will never escape inflation and sequence risk entirely. But through prudent planning, we can lessen their impact on retirement. I believe being a good steward is an important and complicated task that takes a team - <a href="/financial_planning">we can help</a>.
-
-
 
 As an advisor, I specialize in helping small business owners save time so they can do more of what is really important. 
 
