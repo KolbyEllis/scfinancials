@@ -42,17 +42,12 @@ Luckily, we were able to wait and fill up our tank at the next gas station, payi
 /* Media query for mobile devices */
 @media only screen and (max-width: 600px) {
    .container-pic-left {
-      flex-direction: column;
-      align-items: center;
+     display: flex;
+     margin: 1rem;
    }
 
    .text {
-      text-align: center;
-   }
-
-   .container-pic-left img {
-      width: 100%; /* Ensure the image takes up the full width of its container */
-      margin-bottom: 1rem; /* Add some space between the image and the text */
+      margin: 1rem;
    }
 }
 </style>
