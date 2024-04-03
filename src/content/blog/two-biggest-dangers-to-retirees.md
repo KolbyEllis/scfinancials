@@ -62,7 +62,7 @@ Future gas prices may lead to scary numbers, but not all inflation is bad. Infla
 The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
 
 <div class="container-pic-right">
-   <img src="/assets/images/blog/image-22.png" alt="cost of gallon of gas" height="90px">
+   <img src="/assets/images/blog/image-22.png" alt="cost of gallon of gas" height="90px" width="50%">
    <div class="text-left">
       <p>In our low-interest rate environment, savers get almost nothing in return for their savings. The real pain for savers comes with 2022’s inflation rate of 8.6%. Everything costs more. </p>
    
