@@ -80,7 +80,7 @@ Savers that keep their savings in cash are getting hurt right now in two ways. C
    margin: 1rem;
 }
 
-.text-left2 {
+.text-right2 {
    flex-direction: column;
    margin: 1rem;
 }
@@ -94,7 +94,7 @@ Savers that keep their savings in cash are getting hurt right now in two ways. C
       max-width: 100%; /* Make image full width on smaller screens */
    }
 
-   .text-left2 {
+   .text-right2 {
       margin-left: 0; /* Remove left margin on smaller screens */
    }
 
