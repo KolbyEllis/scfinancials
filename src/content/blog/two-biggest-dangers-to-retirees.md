@@ -35,7 +35,6 @@ Luckily, we were able to wait and fill up our tank at the next gas station, payi
 }
 
 .text-right {
-   flex-direction: column;
    margin: 1rem;
 }
 
@@ -68,11 +67,9 @@ Future gas prices may lead to scary numbers, but not all inflation is bad. Infla
    display: flex;
    flex-direction: row-reverse;
    margin: 1rem;
-   background-color: blue
 }
 
 .text-left{
-   flex-direction: column;
    margin: 1rem;
 }
 
@@ -108,7 +105,6 @@ Savers that keep their savings in cash are getting hurt right now in two ways. C
 }
 
 .text-right2 {
-   flex-direction: column;
    margin: 1rem;
 }
 
