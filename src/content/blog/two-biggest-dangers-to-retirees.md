@@ -59,7 +59,7 @@ Future gas prices may lead to scary numbers, but not all inflation is bad. Infla
 The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
 
 <div class="container-pic-left2">
-   <img src="/assets/images/blog/image-22.png" alt="cost of gallon of gas" height="120px">
+   <img src="/assets/images/blog/image-22.png" alt="cost of gallon of gas" height="40px">
    <div class="text-right2">
       <p>The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
 
