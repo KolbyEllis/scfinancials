@@ -9,7 +9,7 @@ tags:
 image: /assets/images/blog/image-21.png
 imageAlt: Retirement secrets
 ---
-Inflation and Sequence Risk
+## Inflation and Sequence Risk
 
 Two of the most overlooked risks to retirement are inflation and sequence risk. Inflation is a popular term, but few have heard about sequence risk. 
 
@@ -18,7 +18,6 @@ I’ll define both, give examples, and tell you how to protect your retirement a
 My wife Jenny and I experienced inflation on our recent road trip to the Grand Canyon. The biggest shock on our trip was seeing $7.79 for a gallon of gas at Mono Lake, CA.
 
 Luckily, we were able to wait and fill up our tank at the next gas station, paying over $6 a gallon.
-
 
 <div class="container-pic-left">
    <img src="/assets/images/blog/rectangle-3.png" alt="gas prices in mono lake California">
@@ -42,9 +41,6 @@ Luckily, we were able to wait and fill up our tank at the next gas station, payi
 }
 </style>
 
-
-
-
 The cost of a gallon of gas just over 40 years ago was $0.65. If the same trend continues, it will eventually be about $25 per gallon in 30 years. 
 
 Future gas prices may lead to scary numbers, but not all inflation is bad. Inflation fuels higher valuations for stocks and other assets. 
@@ -53,12 +49,10 @@ The government’s annual target is 2% inflation which helps our economy by enco
 
 ![cost of gallon of gas](/assets/images/blog/image-22.png "cost of gallon of gas")
 
-
-
 Savers that keep their savings in cash are getting hurt right now in two ways. Cash is horrible with inflation and great when there are high-interest rates. Right now, we have high inflation and low-interest rates. 
 
  <main class="main" >
-!\[inflation chart](/assets/images/blog/image-23-3-.png "inflation chart")
+!\\[inflation chart](/assets/images/blog/image-23-3-.png "inflation chart")
 </main>
 
 In our low-interest rate environment, savers get almost nothing in return for their savings. The real pain for savers comes with 2022’s inflation rate of 8.6%. Everything costs more. 
