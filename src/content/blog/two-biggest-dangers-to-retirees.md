@@ -26,6 +26,8 @@ Luckily, we were able to wait and fill up our tank at the next gas station, payi
       <p><strong>Example:</strong> When gas rises from $3.92 to $4.92 a gallon, it costs more for the same amount of gas - meaning every dollar you own is now worth less.</p>
       <p>The cost of a gallon of gas just over 40 years ago was $0.65. If the same trend continues, it will eventually be about $25 per gallon in 30 years.</p>
    </div>
+</div>
+
 <style>
 .container-pic-left {
    display: flex;
@@ -52,49 +54,46 @@ Luckily, we were able to wait and fill up our tank at the next gas station, payi
 
 </style>
 
-</div>
-
 Future gas prices may lead to scary numbers, but not all inflation is bad. Inflation fuels higher valuations for stocks and other assets. 
 
-ihatethisThe government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
+The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
 
-<div class="container-pic-left2">
+<div class="container-pic-right">
    <img src="/assets/images/blog/image-22.png" alt="cost of gallon of gas" height="150px">
-   <div class="text-right2">
+   <div class="text-left">
       <p>The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
 
  </p>
    
    </div>
+</div>
 
 <style>
-.container-pic-left2{
+.container-pic-right {
    display: flex;
   flex-direction: row-reverse;
    margin: 1rem;
 }
 
-.text-right2 {
+.text-left {
    flex-direction: column;
    margin: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
-   .container-pic-left2 {
+   .container-pic-right {
       flex-direction: column;
    }
 
-   .container-pic-left2 img {
+   .container-pic-right img {
       max-width: 100%; /* Make image full width on smaller screens */
    }
 
-   .text-right2 {
+   .text-left {
       margin-left: 0; /* Remove left margin on smaller screens */
    }
 
 </style>
-</div>
-
 
 
 Savers that keep their savings in cash are getting hurt right now in two ways. Cash is horrible with inflation and great when there are high-interest rates. Right now, we have high inflation and low-interest rates. 
@@ -105,6 +104,7 @@ Savers that keep their savings in cash are getting hurt right now in two ways. C
       <p>In our low-interest rate environment, savers get almost nothing in return for their savings. The real pain for savers comes with 2022’s inflation rate of 8.6%. Everything costs more. </p>
    
    </div>
+</div>
 
 <style>
 .container-pic-left2{
@@ -131,8 +131,6 @@ Savers that keep their savings in cash are getting hurt right now in two ways. C
    }
 
 </style>
-
-</div>
 
 With inflation, cash is worth less because you can buy fewer goods with the same amount of money. If someone had $100,000 saved, with 8.6% inflation, the following year the same amount of money would have the purchasing power of $91,400. 
 
