@@ -23,34 +23,36 @@ Whether or not you agree with loan forgiveness, this affects everyone. Not only 
 
 President Biden stated on August 24th, that Americans will have up to $10,000 in federal student loan debt forgiven. That amount increases to $20,000 if they received a Pell grant. A Pell grant is a need-based grant. The less money your parents earned, the better chance you received this.
 
-<div class="container-pic-right">
-   <img src="/assets/images/blog/pell-grant.png" alt="pell grant" height="100px">
-   <div class="text-left">
+<div class="container-pic-center">
+   <img src="/assets/images/blog/pell-grant.png" alt="pell grant" height="300px">
+   <div class="text-center">
       
       <p>To check if you received a Pell grant, visit: <a href="https://studentaid.gov/">studentaid.gov</a>. This is a government website where you applied for FAFSA. There’s a possibility your parents made an account and you’ll have to get the username and password from them. Once logged in, go to the aid summary page and you should see if you received a Pell Grant.</p>
    </div>
 </div>
 
 <style>
-.container-pic-right {
+.container-pic-center{
    display: flex;
+   flex-direction: column;
+   align-items: center;
    margin: 1rem;
 }
 
-.text-left {
+.text-center{
    margin: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
-   .container-pic-right {
+   .container-pic-center{
       flex-direction: column;
    }
 
-   .container-pic-right img {
+   .container-pic-center img {
       max-width: 100%; /* Make image full width on smaller screens */
    }
 
-   .text-left {
+   .text-center {
       margin-left: 0; /* Remove left margin on smaller screens */
    }
 
