@@ -107,6 +107,7 @@ Savers that keep their savings in cash are getting hurt right now in two ways. C
 <style>
 .container-pic-left2{
    display: flex;
+  flex-direction: row-reverse;
    margin: 1rem;
 }
 
