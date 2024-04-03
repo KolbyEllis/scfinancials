@@ -56,7 +56,7 @@ Luckily, we were able to wait and fill up our tank at the next gas station, payi
 
 Future gas prices may lead to scary numbers, but not all inflation is bad. Inflation fuels higher valuations for stocks and other assets. 
 
-The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
+ihatethisThe government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
 
 <div class="container-pic-left2">
    <img src="/assets/images/blog/image-22.png" alt="cost of gallon of gas" height="150px">
