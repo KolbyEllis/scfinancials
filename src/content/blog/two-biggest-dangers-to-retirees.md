@@ -9,7 +9,7 @@ tags:
 image: /assets/images/blog/image-21.png
 imageAlt: Retirement secrets
 ---
-Inflation and Sequence Risk
+## Inflation and Sequence Risk
 
 Two of the most overlooked risks to retirement are inflation and sequence risk. Inflation is a popular term, but few have heard about sequence risk. 
 
@@ -19,25 +19,111 @@ My wife Jenny and I experienced inflation on our recent road trip to the Grand C
 
 Luckily, we were able to wait and fill up our tank at the next gas station, paying over $6 a gallon.
 
-![gas prices in mono lake california ](/assets/images/blog/rectangle-3.png "gas prices in mono lake california")
+<div class="container-pic-left">
+   <img src="/assets/images/blog/rectangle-3.png" alt="gas prices in mono lake California" height="200px">
+   <div class="text-right">
+      <p><strong>Inflation</strong> is the value of a currency decreases while prices increase.</p>
+      <p><strong>Example:</strong> When gas rises from $3.92 to $4.92 a gallon, it costs more for the same amount of gas - meaning every dollar you own is now worth less.</p>
+      <p>The cost of a gallon of gas just over 40 years ago was $0.65. If the same trend continues, it will eventually be about $25 per gallon in 30 years.</p>
+   </div>
+</div>
 
-**Inflation** is the value of a currency decreases while prices increase. 
+<style>
+.container-pic-left {
+   display: flex;
+   margin: 1rem;
+}
 
-**Example:** When gas rises from $3.92 to $4.92 a gallon, it costs more for the same amount of gas - meaning every dollar you own is now worth less. 
+.text-right {
+   margin: 1rem;
+}
 
-The cost of a gallon of gas just over 40 years ago was $0.65. If the same trend continues, it will eventually be about $25 per gallon in 30 years. 
+@media only screen and (max-width: 600px) {
+   .container-pic-left {
+      flex-direction: column;
+   }
+
+   .container-pic-left img {
+      max-width: 100%; /* Make image full width on smaller screens */
+   }
+
+   .text-right {
+      margin-left: 0; /* Remove left margin on smaller screens */
+   }
+
+</style>
 
 Future gas prices may lead to scary numbers, but not all inflation is bad. Inflation fuels higher valuations for stocks and other assets. 
 
-The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
+<div class="container-pic-center">
+   <img src="/assets/images/blog/image-22.png" alt="cost of gallon of gas" width="50%">
+   <div class="text-center">
+      The government’s annual target is 2% inflation which helps our economy by encouraging spending and lowering the impact of our debt.
+   </div>
+</div>
 
-![cost of gallon of gas](/assets/images/blog/image-22.png "cost of gallon of gas")
+<style>
+.container-pic-center{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 1rem;
+}
+
+.text-center{
+   margin: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+   .container-pic-center {
+      flex-direction: column;
+   }
+
+   .container-pic-center img {
+      max-width: 100%; /* Make image full width on smaller screens */
+   }
+
+   .text-center {
+      margin-left: 0; /* Remove left margin on smaller screens */
+   }
+
+</style>
 
 Savers that keep their savings in cash are getting hurt right now in two ways. Cash is horrible with inflation and great when there are high-interest rates. Right now, we have high inflation and low-interest rates. 
 
-![inflation chart](/assets/images/blog/image-23-3-.png "inflation chart")
+<div class="container-pic-left2">
+   <img src="/assets/images/blog/image-23-3-.png" alt="inflation chart" height="90px">
+   <div class="text-right2">
+      <p>In our low-interest rate environment, savers get almost nothing in return for their savings. The real pain for savers comes with 2022’s inflation rate of 8.6%. Everything costs more. </p>
+   
+   </div>
+</div>
 
-In our low-interest rate environment, savers get almost nothing in return for their savings. The real pain for savers comes with 2022’s inflation rate of 8.6%. Everything costs more. 
+<style>
+.container-pic-left2{
+   display: flex;
+   margin: 1rem;
+}
+
+.text-right2 {
+   margin: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+   .container-pic-left2 {
+      flex-direction: column;
+   }
+
+   .container-pic-left2 img {
+      max-width: 100%; /* Make image full width on smaller screens */
+   }
+
+   .text-right2 {
+      margin-left: 0; /* Remove left margin on smaller screens */
+   }
+
+</style>
 
 With inflation, cash is worth less because you can buy fewer goods with the same amount of money. If someone had $100,000 saved, with 8.6% inflation, the following year the same amount of money would have the purchasing power of $91,400. 
 
@@ -94,8 +180,6 @@ This hurts your portfolio because you have fewer shares of company XYZ to partic
 * Incorporate less stock correlated asset classes like gold, other commodities, and real estate.
 
 We will never escape inflation and sequence risk entirely. But through prudent planning, we can lessen their impact on retirement. I believe being a good steward is an important and complicated task that takes a team - <a href="/financial_planning">we can help</a>.
-
-
 
 As an advisor, I specialize in helping small business owners save time so they can do more of what is really important. 
 
