@@ -17,108 +17,56 @@ eleventyNavigation:
 {% block body %}                                
                  
 {% include 'components/banner.html' %}
-                                
+                    
+
 <!-- ============================================ -->
-<!--                 Side By Side                 -->
+<!--                Why Choose Us                 -->
 <!-- ============================================ -->
 
-<section id="sbs-1431">
+<section id="why-choose-1631">
     <div class="cs-container">
-        <div class="cs-image-group">
-            <!-- Person Picture -->
-            <!-- To make your own crops of people, use this tool to remove the backgorund of images https://www.remove.bg/ -->
-            <picture class="cs-puzzle">
-                <source media="(max-width: 600px)" srcset="/assets/images/retirement_plan-m.png">
-                <source media="(min-width: 601px)" srcset="/assets/images/retirement_plan.png">
-                <img loading="lazy" decoding="async" src="/assets/images/retirement_plan.png" alt="volunteer" width="702" height="617" aria-hidden="true">
+        <div class="cs-flex">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/financial_planning-m.png">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/financial_planning.png">
+                <img loading="lazy" decoding="async" src="/assets/images/financial_planning.png" alt="therapy" width="608" height="400">
             </picture>
+            <div class="cs-content">
+                <span class="cs-topper">Financial Planning</span>
+                <h2 class="cs-title">DNA Process</h2>
+                <p class="cs-text">
+                    Our team has developed and refined the DNA process to help people connect the financial puzzle pieces of their life:
+                </p>
+            </div>
         </div>
-        <div class="cs-content">
-            <span class="cs-topper">Financial Planning</span>
-            <h1 class="cs-title">DNA Process</h1>
-            <p class="cs-text">
-                Our team has developed and refined the DNA process to help people connect the financial puzzle pieces of their life:
-            </p>
-            <ul class="cs-card-group">
-                <li class="cs-li">
-                    <picture class="cs-li-picture">
-                        <img class="cs-li-icon" aria-hidden="true" src="/assets/images/task.png" decoding="async" alt="icon" width="32" height="32" loading="lazy">
-                    </picture>
-                    <div class="cs-flex">
-                        <h3 class="cs-h3">Develop a plan</h3>
-                        <p class="cs-li-text">
-                            Creating a solid financial plan is the cornerstone of achieving your long-term financial goals. Our experienced advisors will work with you to develop a customized plan tailored to your unique financial situation and aspirations.
-
-                        </p>
-                    </div>
-                </li>
-                <li class="cs-li">
-                    <picture class="cs-li-picture">
-                        <img class="cs-li-icon" aria-hidden="true" src="/assets/images/routine.png" decoding="async" alt="icon" width="32" height="32" loading="lazy">
-                    </picture>
-                    <div class="cs-flex">
-                        <h3 class="cs-h3">Navigate Life</h3>
-                        <p class="cs-li-text">
-                            Life is full of unexpected twists and turns, but with a comprehensive financial plan in place, you can navigate through life's challenges with confidence. Our team will provide guidance and support every step of the way, helping you stay on track to reach your goals.
-
-                        </p>
-                    </div>
-                </li>
-                <li class="cs-li">
-                    <picture class="cs-li-picture">
-                        <img class="cs-li-icon" aria-hidden="true" src="/assets/images/goal.png" decoding="async" alt="icon" width="32" height="32" loading="lazy">
-                    </picture>
-                    <div class="cs-flex">
-                        <h3 class="cs-h3">Achieve Goals</h3>
-                        <p class="cs-li-text">
-                            Whether you're saving for retirement, buying a home, or planning for your children's education, we'll help you turn your financial dreams into reality. Our goal is to empower you to achieve financial success and live the life you've always envisioned.
-
-                        </p>
-                    </div>
-                </li>
-            </ul>     
-
-            <h3 class="cs-h3">Common questions we address</h3>
-            
-            <ul class="cs-ul">
-                <li class="cs-li">
-                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/green-check.svg" alt="checkmark" width="24" height="24">
-                    When can I retire?
-                </li>
-                <li class="cs-li">
-                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/green-check.svg" alt="checkmark" width="24" height="24">
-                    How much should I save each year?                
-                </li>
-                <li class="cs-li">
-                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/green-check.svg" alt="checkmark" width="24" height="24">
-                    How should I budget?
-                </li>
-                <li class="cs-li">
-                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/green-check.svg" alt="checkmark" width="24" height="24">
-                    How can I leave a legacy?
-                </li>
-                <li class="cs-li">
-                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/green-check.svg" alt="checkmark" width="24" height="24">
-                    What account I should contribute to?
-                </li>
-                <li class="cs-li">
-                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/green-check.svg" alt="checkmark" width="24" height="24">
-                    Do I need life insurance?
-                </li>
-                <li class="cs-li">
-                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/green-check.svg" alt="checkmark" width="24" height="24">
-                    How do I maximize social security?
-                </li>
-                <li class="cs-li">
-                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/green-check.svg" alt="checkmark" width="24" height="24">
-                    How can I pay less taxes?
-                </li>
-                <li class="cs-li">
-                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/green-check.svg" alt="checkmark" width="24" height="24">
-                    How do I help my children with education?
-                </li>
-            </ul> 
-        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    Develop a plan                
+                </h3>
+                <p class="cs-item-text">
+                    Creating a solid financial plan is the cornerstone of achieving your long-term financial goals. Our experienced advisors will work with you to develop a customized plan tailored to your unique financial situation and aspirations.
+                </p>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    Navigate Life                
+                </h3>
+                <p class="cs-item-text">
+                    Life is full of unexpected twists and turns, but with a comprehensive financial plan in place, you can navigate through life's challenges with confidence. Our team will provide guidance and support every step of the way, helping you stay on track to reach your goals.
+                </p>
+            </li>
+            <li class="cs-item">
+                <h3 class="cs-h3">
+                    Achieve Goals
+                </h3>
+                <p class="cs-item-text">
+                    Whether you're saving for retirement, buying a home, or planning for your children's education, we'll help you turn your financial dreams into reality. Our goal is to empower you to achieve financial success and live the life you've always envisioned.
+                </p>
+            </li>
+        </ul>
     </div>
 </section>
 
@@ -138,7 +86,7 @@ eleventyNavigation:
                 <li class="cs-item">
                     <picture class="cs-icon-wrapper">
                         <img class="cs-icon" loading="lazy" decoding="async"
-                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-truck-icon.svg"
+                                src="/assets/images/discover.png"
                                 alt="car" width="24" height="24" aria-hidden="true">
                     </picture>
                     <div class="cs-flex">
@@ -151,7 +99,7 @@ eleventyNavigation:
                 <li class="cs-item">
                     <picture class="cs-icon-wrapper">
                         <img class="cs-icon" loading="lazy" decoding="async"
-                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-headphone-icon.svg"
+                                src="/assets/images/establish.png"
                                 alt="car" width="24" height="24" aria-hidden="true">
                     </picture>
                     <div class="cs-flex">
@@ -164,7 +112,7 @@ eleventyNavigation:
                 <li class="cs-item">
                     <picture class="cs-icon-wrapper">
                         <img class="cs-icon" loading="lazy" decoding="async"
-                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-money-icon.svg"
+                                src="/assets/images/gather.png"
                                 alt="car" width="24" height="24" aria-hidden="true">
                     </picture>
                     <div class="cs-flex">
@@ -177,18 +125,18 @@ eleventyNavigation:
             </ul>
             <picture class="cs-image">
                 <source media="(max-width: 600px)"
-                        srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-watches.png">
+                        srcset="/assets/images/financial_planning-logo-m.png">
                 <source media="(min-width: 601px)"
-                        srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-watches.png">
+                        srcset="/assets/images/financial_planning-logo.png">
                 <img loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-watches.png" alt="watches"
+                        src="/assets/images/financial_planning-logo.png" alt="watches"
                         width="510" height="193" aria-hidden="true">
             </picture>
             <ul class="cs-card-group">
                 <li class="cs-item">
                     <picture class="cs-icon-wrapper">
                         <img class="cs-icon" loading="lazy" decoding="async"
-                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-label-icon.svg"
+                                src="/assets/images/develop.png"
                                 alt="car" width="24" height="24" aria-hidden="true">
                     </picture>
                     <div class="cs-flex">
@@ -201,7 +149,7 @@ eleventyNavigation:
                 <li class="cs-item">
                     <picture class="cs-icon-wrapper">
                         <img class="cs-icon" loading="lazy" decoding="async"
-                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-shield-icon.svg"
+                                src="/assets/images/implement.png"
                                 alt="car" width="24" height="24" aria-hidden="true">
                     </picture>
                     
@@ -215,7 +163,7 @@ eleventyNavigation:
                 <li class="cs-item">
                     <picture class="cs-icon-wrapper">
                         <img class="cs-icon" loading="lazy" decoding="async"
-                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-bag-icon.svg"
+                                src="/assets/images/monitor.png"
                                 alt="car" width="24" height="24" aria-hidden="true">
                     </picture>
                     <div class="cs-flex">
@@ -230,10 +178,10 @@ eleventyNavigation:
     </div>
     <picture class="cs-background">
         <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-why-choose-background.png">
+        <source media="(max-width: 600px)" srcset="/assets/images/ecomm-why-choose-background.png">
         <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-why-choose-background.png">
-        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/ecomm-why-choose-background.png" alt="texture" width="1280" height="568">
+        <source media="(min-width: 601px)" srcset="/assets/images/ecomm-why-choose-background.png">
+        <img loading="lazy" decoding="async" src="/assets/images/ecomm-why-choose-background.png" alt="texture" width="1280" height="568">
     </picture>
 </section>
                                                   

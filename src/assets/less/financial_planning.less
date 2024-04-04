@@ -1,14 +1,11 @@
 /*-- -------------------------- -->
-<---       Side By Side         -->
+<---       Why Choose Us        -->
 <--- -------------------------- -*/
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #sbs-1431 {
+    #why-choose-1631 {
         padding: var(--sectionPadding);
-        padding-top: 0;
-        overflow: hidden;
-        margin-top: 10rem;
 
         .cs-container {
             width: 100%;
@@ -19,15 +16,26 @@
             flex-direction: column;
             align-items: center;
             /* 48px - 64px */
-            gap: clamp(3rem, 6vw, 4rem);
-            position: relative;
+            gap: clamp(3rem, 7vw, 4rem);
+        }
+
+        .cs-flex {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 7vw, 4rem)
         }
 
         .cs-content {
             /* set text align to left if content needs to be left aligned */
             text-align: left;
             width: 100%;
-            max-width: (522/16rem);
+            max-width: (608/16rem);
+            /* prevents padding from affecting width and height */
+            box-sizing: border-box;
             display: flex;
             flex-direction: column;
             /* centers content horizontally, set to flex-start to left align */
@@ -37,179 +45,119 @@
         .cs-text {
             margin-bottom: (16/16rem);
             &:last-of-type {
-                margin-bottom: (32/16rem);
+                margin-bottom: (0/16rem);
+            }
+        }
+
+        .cs-picture {
+            display: block;
+            position: relative;
+            width: 100%;
+            max-width: (630/16rem);
+            /* chnages to auto at tablet */
+            height: 50vw;
+            /* removed at tablet */
+            max-height: (400/16rem);
+            /* clips img tag corners */
+            overflow: hidden;
+            /* sends it to the 2nd posiiton in the bottom */
+            order: 2;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
             }
         }
 
         .cs-card-group {
             width: 100%;
-            max-width: (630/16rem);
             margin: 0;
             padding: 0;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-            gap: (24/16rem);
-            margin-bottom: 2rem;
-        }
-        
-        .cs-li {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: flex-start;
-            justify-content: flex-start;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            align-items: stretch;
             /* 16px - 20px */
-            gap: clamp(1rem, 2.5vw, 1.25rem);
+            column-gap: clamp(1rem, 2.5vw, 2rem);
+            row-gap: (28/16rem);
         }
 
-        .cs-li-picture {
-            width: (80/16rem);
-            height: (80/16rem);
-            margin: 0;
-            border-radius: 50%;
-            background-color: #fff;
-            overflow: hidden;
+        .cs-item {
+            list-style: none;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            /* prevents flexbox from squishing it */
-            flex: none;
-            position: relative;
-            z-index: 1;
-
-            &:before {
-                content: '';
-                width: 100%;
-                height: 100%;
-                background: var(--primary);
-                opacity: .1;
-                position: absolute;
-                display: block;
-                top: 0;
-                left: 0;
-            }
-        }
-
-        .cs-li-icon {
-            width: 3rem;
-            height: auto;
-            display: block;
+            grid-column: span 12;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: (12/16rem);
         }
 
         .cs-h3 {
-            font-size: (20/16rem);
+            /* 20px - 25px */
+            font-size: clamp(1.25rem, 3vw, 1.5625rem);
             line-height: 1.2em;
             font-weight: 700;
-            text-align: left;
-            margin: 0 0 (12/16rem) 0;
+            margin: 0;
             color: var(--headerColor);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: (12/16rem);
+            transition: color 0.3s;
         }
 
-        .cs-li-text {
-            font-size: (16/16rem);
+        .cs-item-text {
+            /* 14px - 16px */
+            font-size: clamp(.875rem, 1.5vw, 1rem);
             line-height: 1.5em;
-            text-align: left;
             margin: 0;
             color: var(--bodyTextColor);
-        }
-
-        .cs-image-group {
-            /* scale down the whole section */
-            font-size: ~"min(1.6vw, .6em)";
-            /* aligns the .cs-image-group to the right */
-            text-align: right;
-            /* using ems so we can scale this container with a font size */
-            width: auto;
-            min-width: (600/16em);
-            max-width: (702/16rem);
-            /* changes auto at desktop */
-            height: (618/16em);
-            /* sends it to the right in the 2nd position */
-            order: 2;
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
-            position: relative;
-        }
-
-        .cs-puzzle {
-            height: 100%;
-            width: auto;
-            /* allows text align to move it left or right */
-            display: inline-flex;
-            align-items: flex-end;
-            justify-content: center;
-            position: relative;
-            
-
-            img {
-                width: auto;
-                height: 100%;
-                margin: 0;
-                display: block;
-                object-fit: contain;
-            }
+            transition:
+                color 0.3s,
+                opacity 0.3s;
         }
     }
 }
 
-/* Small Desktop - 1024px */
-@media only screen and (min-width: 64rem) {
-    #sbs-1431 {
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #why-choose-1631 {
         .cs-container {
             max-width: (1280/16rem);
+        }
+
+        .cs-flex {
             flex-direction: row;
-            justify-content: flex-end;
-            position: relative;
+            justify-content: space-between;
+            align-items: stretch;
         }
 
         .cs-content {
             width: 50%;
+            /* 32px - 56px top and bottom */
+            padding: clamp(2rem, 4vw, 3.5rem) 0;
+            align-self: center;
+            flex: none;
         }
 
-        .cs-image-group {
-            font-size: ~"min(1.3vw, 1em)";
-            flex: none;
+        .cs-picture {
+            width: 47vw;
+            min-height: (400/16rem);
+            max-height: 100%;
+            height: auto;
             /* sends it to the left in the 1st position */
             order: -1;
-            /* pushes person image to the right of the container */
-            justify-content: flex-end;
-            position: absolute;
-            /* changes to 0 at large desktop */
-            left: (-100/16rem);
-            bottom: (-101/16rem);
-            padding-left: 15rem;
+            position: relative;
+        }
+        
+        .cs-item {
+            grid-column: span 4;
         }
     }
-}
+}         
 
-/* Large Desktop 1300px */
-@media only screen and (min-width: 81.25rem) {
-    #sbs-1431 {
-        .cs-image-group {
-            font-size: ~"min(1.2vw, 1em)";
-            height: auto;
-            margin-right: (30/16rem);
-            /* pushes person image to the right of the container */
-            justify-content: flex-end;
-            /* pushed person image to the bottom of the container */
-            align-items: flex-end;
-            position: absolute;
-            right: 50%;
-            top: 0;
-            /* same amount as the padding bottom on the #sbs*/
-            bottom: (-100/16rem);
-        }
-
-        .cs-content {
-            /* pushes it to the right side of the container */
-            margin-left: auto;
-        }
-    }
-}
-                                
 /*-- -------------------------- -->
 <---         Why Choose         -->
 <--- -------------------------- -*/
