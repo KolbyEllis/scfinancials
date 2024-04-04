@@ -314,59 +314,6 @@
             margin-top: 1px;
             display: block;
         }
-
-        .cs-bubbles {
-            font-size: ~"min(2.5vw, .7em)";
-            width: (582/16em);
-            height: (557/16em);
-            display: none;
-            position: absolute;
-            /* changes to auto at larger desktop */
-            left: (-260/16em);
-            /* changes to -220px at large desktop */
-            bottom: (-50/16em);
-            z-index: -1;
-
-            &:before {
-                /* white border bubble */
-                content: "";
-                width: (464/16em);
-                height: (464/16em);
-                background: transparent;
-                border: 1px solid #1a1a1a;
-                border-radius: 50%;
-                opacity: 1;
-                position: absolute;
-                display: block;
-                top: 0;
-                left: 0;
-                animation-name: floatAnimation;
-                animation-duration: 5s;
-                animation-timing-function: ease-in-out;
-                animation-fill-mode: forwards;
-                animation-iteration-count: infinite;
-            }
-
-            &:after {
-                /* orange bubble */
-                content: "";
-                width: (366/16em);
-                height: (366/16em);
-                background: var(--primary);
-                opacity: 0.15;
-                border-radius: 50%;
-                display: block;
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                z-index: -1;
-                animation-name: floatAnimation2;
-                animation-duration: 14s;
-                animation-timing-function: ease-in-out;
-                animation-fill-mode: forwards;
-                animation-iteration-count: infinite;
-            }
-        }
     }
 }
 
@@ -408,15 +355,6 @@
         .cs-box {
             display: flex;
         }
-
-        .cs-bubbles {
-            font-size: 1em;
-            margin-right: (600/16rem);
-            display: block;
-            left: auto;
-            right: 50%;
-            bottom: (-220/16rem);
-        }
     }
 }
 
@@ -453,7 +391,7 @@
         }
 
         .cs-topper {
-            color: #767676;
+            color: var(--primary);
         }
 
         .cs-title {

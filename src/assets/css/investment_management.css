@@ -41,47 +41,6 @@
   #RPsbsr-1310 .cs-text:last-of-type {
     margin-bottom: 2rem;
   }
-  #RPsbs-1310 .cs-button-solid,
-  #RPsbsr-1310 .cs-button-solid {
-    font-size: 1rem;
-    /* 46px - 56px */
-    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
-    text-decoration: none;
-    font-weight: 700;
-    text-align: center;
-    margin: 0;
-    color: #1a1a1a;
-    min-width: 9.375rem;
-    padding: 0 1.5rem;
-    background-color: var(--primary);
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    /* prevents padding from adding to the width */
-    box-sizing: border-box;
-    transition: color 0.3s;
-  }
-  #RPsbs-1310 .cs-button-solid:before,
-  #RPsbsr-1310 .cs-button-solid:before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    background: #000;
-    opacity: 1;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: width 0.3s;
-  }
-  #RPsbs-1310 .cs-button-solid:hover,
-  #RPsbsr-1310 .cs-button-solid:hover {
-    color: #fff;
-  }
-  #RPsbs-1310 .cs-button-solid:hover:before,
-  #RPsbsr-1310 .cs-button-solid:hover:before {
-    width: 100%;
-  }
   #RPsbs-1310 .cs-ul,
   #RPsbsr-1310 .cs-ul {
     width: 100%;
@@ -175,18 +134,6 @@
     bottom: 0;
     z-index: 10;
   }
-  #RPsbs-1310 .cs-desc,
-  #RPsbsr-1310 .cs-desc {
-    /* 16px - 31px */
-    font-size: clamp(1rem, 2.5vw, 1.9375rem);
-    line-height: 1.2em;
-    font-weight: 700;
-    text-align: inherit;
-    width: 100%;
-    color: var(--bodyTextColorWhite);
-    position: relative;
-    z-index: 10;
-  }
   #RPsbs-1310 .cs-graphic,
   #RPsbsr-1310 .cs-graphic {
     width: 150%;
@@ -230,10 +177,6 @@
     width: 93%;
     height: 94%;
   }
-  #RPsbs-1310 .cs-box,
-  #RPsbsr-1310 .cs-box {
-    bottom: 0rem;
-  }
   #RPsbs-1310 .cs-graphic,
   #RPsbsr-1310 .cs-graphic {
     max-width: 44.6875rem;
@@ -260,10 +203,6 @@
   #RPsbsr-1310 .cs-picture {
     left: auto;
     right: 0;
-  }
-  #RPsbsr-1310 .cs-box {
-    left: 0;
-    right: auto;
   }
 }
 /*-- -------------------------- -->
