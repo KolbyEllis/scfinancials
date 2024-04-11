@@ -42,6 +42,49 @@ eleventyNavigation:
     https://stock.adobe.com/search?k=senior+couple+walking+beach&asset_id=601348051 -->
 
 
+    <div id="cs-modal-1605" style="z-index: -10">
+        <div class="cs-wrapper">
+            <button id="cs-close-1605" class="cs-close" aria-label="close pop up">
+                <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/Close.svg" alt="clothing" width="24" height="24" aria-hidden="true">
+            </button>
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/modal-m.png">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/modal.png">
+                <img loading="lazy" decoding="async" src="/assets/images/modal.png" alt="clothing" width="413" height="500">
+            </picture>
+            <div class="cs-content">
+                <span class="cs-header">
+                    Download Our Complimentary Resource Guide
+                </span>
+                <p class="cs-text">
+                    Discover the strategies and insights you need to navigate the complex world of finance with confidence. Our exclusive resource guide is packed with expert tips, practical advice, and valuable resources tailored to empower your financial journey.
+                </p>
+                <!--If you remove the form because you don't want it, make sure you remove "CSsubmitButton.addEventListener('click', handleClose);" in the JS code. It is adding an event listener on the submit button, if you remove the submit button JS freaks out that its trying to add an event listener to something that isn't there and won't work -->
+                <form class="cs-form" name="Contact Form" method="post">
+                    <input class="cs-input" type="name" id="cs-email-1605" name="find-us" placeholder="Name">
+                    <input class="cs-input" type="email" id="cs-email-1605" name="find-us" placeholder="Email Address">
+                    <button id="cs-submit-1605" class="cs-button-solid cs-submit" type="submit">Download Now</button>
+                </form>
+                <div class="cs-social">
+                    <a href="" class="cs-social-link">
+                        <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/facebook-1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                    </a>
+                    <a href="" class="cs-social-link">
+                        <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/twitter-1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                    </a>
+                    <a href="" class="cs-social-link">
+                        <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/instagram1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                    </a>
+                    <a href="" class="cs-social-link">
+                        <img class="cs-social-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/youtube1a.svg" alt="logo" width="12" height="12" aria-hidden="true" decoding="async">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+                                    
 <!-- ============================================ -->
 <!--                    Hero                      -->
 <!-- ============================================ -->
@@ -112,7 +155,63 @@ eleventyNavigation:
         <source media="(min-width: 601px)" srcset="/assets/images/hero.png">
         <img loading="lazy" decoding="async" src="/assets/images/hero.png" alt="dna strand" width="1920" height="1200" aria-hidden="true">
     </picture>
+</section>  
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-690">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex-group">
+                <span class="cs-topper">Expert Financial Guidence</span>
+                <h2 class="cs-title"> Empowering Your Financial Future</h2>
+            </div>
+            <p class="cs-text">
+                Receive personalized financial advice and solutions crafted to suit your unique needs and goals. Our team is dedicated to empowering you with the knowledge and resources to secure your financial future.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <picture class="cs-picture">
+                        <img class="cs-icon" src="/assets/images/squares.svg" loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">Fiduciaries</h3>
+                    <p class="cs-item-text">
+                        Partner with fiduciaries who prioritize your financial well-being and act in your best interest at all times.                    
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <picture class="cs-picture">
+                        <img class="cs-icon" src="/assets/images/squares.svg" loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">Managing over $80,000,000 in investments as of 1/1/2024.
+
+                    </h3>
+                    <p class="cs-item-text">
+                        Trust us to manage your investments with expertise and diligence, ensuring your assets are in capable hands.
+                    </p>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <picture class="cs-picture">
+                        <img class="cs-icon" src="/assets/images/squares.svg" loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
+                    </picture>
+                    <h3 class="cs-h3">No commissions</h3>
+                    <p class="cs-item-text">
+                        Benefit from our commission-free services, ensuring transparency and alignment of interests in all our transactions.
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </div>
 </section>
+                                
 
 <!-- ============================================ -->
 <!--                Why Choose Us                 -->
@@ -316,11 +415,6 @@ eleventyNavigation:
                     <source media="(max-width: 600px)" srcset="/assets/images/handshake-m.png">
                     <source media="(min-width: 601px)" srcset="/assets/images/handshake.png">
                     <img aria-hidden="true" decoding="async" src="/assets/images/handshake.png" alt="house" loading="lazy" width="400" height="560">
-                </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/presentation-m.png">
-                    <source media="(min-width: 601px)" srcset="/assets/images/presentation.png">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/presentation.png" alt="cabinets" loading="lazy" width="400" height="560">
                 </picture>
             </div>
             <!-- Right Content Section-->
