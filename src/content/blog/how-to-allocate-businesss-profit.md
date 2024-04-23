@@ -44,3 +44,7 @@ Large concentrations of wealth in one place leave you at a greater risk. It’s 
 Additional investment in your business can cost you more time. There’s a point where the cost of time and stress isn’t worth the additional investment. This cost is especially important if your goal is to start making yourself less essential to daily operations for future succession.
 
 There are a lot of misconceptions about retirement plans. Find out if there is a cost-effective plan that can provide you substantial tax savings for you, your employees, and your business. [Contact us](https://scfinancials.com/contact/) to talk to a financial advisor.
+
+**Resources:**
+
+· [Nerd Wallet’s list of High yield business savings accounts](https://www.nerdwallet.com/article/small-business/business-savings-accounts)
