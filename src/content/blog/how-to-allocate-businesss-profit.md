@@ -5,6 +5,7 @@ author: Noah Schwab
 date: 2024-04-22T21:58:00.000Z
 tags:
   - post
+  - business_owners
 image: /assets/images/blog/money.webp
 imageAlt: scfinancials Spokane Washington
 ---
