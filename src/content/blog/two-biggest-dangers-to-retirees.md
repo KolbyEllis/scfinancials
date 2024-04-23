@@ -5,7 +5,7 @@ author: Noah Schwab
 date: 2022-08-13T06:52:00.000Z
 tags:
   - post
-  - retirement
+  - retirement_secrets
 image: /assets/images/blog/image-21.png
 imageAlt: Retirement secrets
 ---
