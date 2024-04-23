@@ -5,6 +5,7 @@ author: Noah Schwab
 date: 2024-04-22T21:21:00.000Z
 tags:
   - post
+  - business_owners
 image: /assets/images/blog/business-owners.webp
 imageAlt: business owners Spokane Washington
 ---
