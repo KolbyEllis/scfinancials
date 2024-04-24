@@ -5,7 +5,7 @@ author: Noah schwab
 date: 2024-04-24T14:55:00.000Z
 tags:
   - post
-  - Business_owners
+  - business_owners
 image: /assets/images/blog/sucession-planning.webp
 imageAlt: business owners
 ---
