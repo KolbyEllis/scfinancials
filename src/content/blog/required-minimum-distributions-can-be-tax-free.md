@@ -6,9 +6,11 @@ date: 2024-04-23T20:03:00.000Z
 tags:
   - post
   - retirement_plans
-image: /assets/images/blog/rmd-penalty.webp
+image: /assets/images/blog/minimum-distributions.webp
 imageAlt: RMD Penalty
 ---
+![RMD Penalty](/assets/images/blog/rmd-penalty.webp "RMD Penalty")
+
 Often referred to as an RMD, a required minimum distribution is an unavoidable withdrawal every year starting at age 72 from all tax-deferred accounts such as an IRA or 401k. Created by the government, this rule is designed to start bringing in taxes on those accounts. 
 
 If someone forgets to take their required minimum distribution, they are penalized based on half the amount that wasn’t distributed. 
@@ -47,11 +49,7 @@ In the year you turn age 72, you are allowed to avoid taking your first distribu
 
 QCDs are one of the best tax savings for those who have RMDs. If someone is already giving to a charity like a church or non-profit, this can save you thousands. The tax code allows contributions of up to $100,000 from tax-deferred accounts each year to a nonprofit organization. The amount given is not taxable income. This means you can satisfy your RMD for the year and would have no additional income if you were to give it to charity. 
 
-
-
 ![QCD Tax Savings](/assets/images/blog/qcd-tax-savings.webp "QCD Tax Savings")
-
-
 
 For example, $20,000 given to charity using a QCD while in the 12% tax bracket will save $2,400 in taxes.
 
