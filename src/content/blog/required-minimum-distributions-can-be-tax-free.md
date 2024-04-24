@@ -7,7 +7,7 @@ tags:
   - post
   - retirement_plans
 image: /assets/images/blog/minimum-distributions.webp
-imageAlt: RMD Penalty
+imageAlt: minimum distributions
 ---
 ![RMD Penalty](/assets/images/blog/rmd-penalty.webp "RMD Penalty")
 
