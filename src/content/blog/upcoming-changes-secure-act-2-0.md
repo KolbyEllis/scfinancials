@@ -12,7 +12,7 @@ tags:
 image: /assets/images/blog/secure-act.webp
 imageAlt: secure act
 ---
-The median balance in a 401(k) for Americans aged 65 and up is $87,700 according to Vanguard. There is a problem with a lack of Americans saving for retirement and our government is wanting to change this. 68% of workers have access to a retirement plan in 2021. The purpose of the newly passed Secure Act 2.0 is designed for younger workers to save more while dealing with student debt and older employees who are trying to catch up with their retirement savings.
+The median balance in a 401(k) for Americans aged 65 and up is $87,700 according to [Vanguard](https://www.cnbc.com/2022/07/30/vanguard-how-much-americans-have-saved-for-retirement-by-age.html). There is a problem with a lack of Americans saving for retirement and our government is wanting to change this. [68%](https://www.bls.gov/opub/ted/2021/68-percent-of-private-industry-workers-had-access-to-retirement-plans-in-2021.htm) of workers have access to a retirement plan in 2021. The purpose of the newly passed Secure Act 2.0 is designed for younger workers to save more while dealing with student debt and older employees who are trying to catch up with their retirement savings.
 
 ## **Savers**
 
