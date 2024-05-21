@@ -32,8 +32,6 @@ Tax planning: Contribute to accounts efficiently and manage tax liability, by do
 
 Tax-loss harvesting: Realising capital loss positions at the end of the year to offset taxable income.
 
-
-
 **Roles of an accountant:**
 
 Review financial statements: See if documents are accurate and correct.
@@ -45,8 +43,6 @@ Tax advice: Advising on areas for opportunity to save on cost saving or efficien
 Risk analysis and forecasting: Providing future predictions and analysis on business financials.
 
 Annual audits: See if personal and business records are correct and accurate.
-
-
 
 #### Differences between financial advisors and accountants
 
@@ -74,10 +70,8 @@ What financial tasks do you need help with? An accountant may be a better option
 
 If you possess the knowledge, confidence, and desire required to DIY your finances, you may not require the assistance of an accountant or financial advisor if you are confident in your capacity to manage your finances. Even if you feel confident, typically you will run into a situation where you won’t so it helps to know a CPA or financial advisor that you trust. Both accountants and CPAs typically offer a free consultation to talk through and find out if they can help. If you want to talk to one of our financial advisors, [contact us](/contact).
 
+#### Resources
 
+[Accountants](https://www.investopedia.com/terms/a/accountant.asp)[](https://www.investopedia.com/articles/personal-finance/050815/what-do-financial-advisers-do.asp)
 
-#### Resources:
-
-Accountants: https://www.investopedia.com/terms/a/accountant.asp
-
-Financial Advisors: https://www.investopedia.com/articles/personal-finance/050815/what-do-financial-advisers-do.asp
+[Financial Advisors](https://www.investopedia.com/articles/personal-finance/050815/what-do-financial-advisers-do.asp)
