@@ -6,7 +6,7 @@ author: Noah Schwab
 date: 2024-05-21T14:20:00.000Z
 tags:
   - post
-  - fundamentalsoffinance
+  - fundamentals_of_finance
 image: /assets/images/blog/advisors-spokane.webp
 imageAlt: spokane financial advisors
 ---
