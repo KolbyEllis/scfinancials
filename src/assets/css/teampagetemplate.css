@@ -312,17 +312,17 @@
   }
 }
 /*-- -------------------------- -->
-<---          Gallery           -->
+<---         Services           -->
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #gallery-1152 {
+  #services-343 {
     padding: var(--sectionPadding);
   }
-  #gallery-1152 .cs-container {
+  #services-343 .cs-container {
     width: 100%;
-    /* changes to 1280px at large desktop */
-    max-width: 59rem;
+    /* changes to 1440px at tablet */
+    max-width: 34.375rem;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -330,7 +330,7 @@
     /* 48px - 64px */
     gap: clamp(3rem, 6vw, 4rem);
   }
-  #gallery-1152 .cs-content {
+  #services-343 .cs-content {
     /* set text align to left if content needs to be left aligned */
     text-align: center;
     width: 100%;
@@ -339,125 +339,123 @@
     /* centers content horizontally, set to flex-start to left align */
     align-items: center;
   }
-  #gallery-1152 .cs-topper {
-    color: var(--primary);
-  }
-  #gallery-1152 .cs-title {
-    margin: 0;
-  }
-  #gallery-1152 .cs-gallery {
+  #services-343 .cs-card-group {
     width: 100%;
-    /* changes to 100% at tablet */
-    max-width: 31.25rem;
     padding: 0;
     margin: 0;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     /* 16px - 20px */
-    gap: clamp(1rem, 1.5vw, 1.25rem);
+    gap: clamp(1rem, 1.6vw, 1.25rem);
   }
-  #gallery-1152 .cs-image {
-    /* 260px - 360px */
-    min-height: clamp(16.25rem, 60vw, 20rem);
-    border-radius: 1rem;
-    /* clips the image corners */
+  #services-343 .cs-item {
+    list-style: none;
+    width: 100%;
+    max-width: 31.25rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  #services-343 .cs-item:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: translateY(-0.4375rem);
+  }
+  #services-343 .cs-item:hover .cs-picture img {
+    opacity: 0.3;
+    transform: scale(1.1);
+  }
+  #services-343 .cs-item:hover .cs-h3 {
+    color: var(--primary);
+  }
+  #services-343 .cs-item:before {
+    /* border, done in pseudo so it can sit under the picture */
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid #e8e8e8;
+    /* prevents border from affecting height and width */
+    box-sizing: border-box;
+    background: transparent;
+    opacity: 1;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #services-343 .cs-link {
+    text-decoration: none;
+    /* 16px - 24px */
+    padding-bottom: clamp(1rem, 2.2vw, 1.5rem);
+    display: block;
+  }
+  #services-343 .cs-picture {
+    width: 100%;
+    height: 15rem;
+    /* 16px - 24px */
+    margin-bottom: clamp(1rem, 2.2vw, 1.5rem);
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-color: var(--primary);
+    /* clips the img tag corners */
     overflow: hidden;
     display: block;
-    grid-column: span 12;
-    grid-row: span 1;
     position: relative;
+    z-index: 10;
   }
-  #gallery-1152 .cs-image img {
+  #services-343 .cs-picture img {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    /* makes it act like a background image */
     object-fit: cover;
+    transition: transform 0.6s, opacity 0.3s;
   }
-}
-/* Tablet - 700px */
-@media only screen and (min-width: 43.75rem) {
-  #gallery-1152 .cs-gallery {
-    max-width: 100%;
-    grid-template-rows: 1fr;
+  #services-343 .cs-h3 {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 3vw, 1.5625rem);
+    line-height: 1.2em;
+    font-weight: 700;
+    color: var(--headerColor);
+    margin: 0 0 0.75rem 0;
+    /* 16px - 24px */
+    padding: 0 clamp(1rem, 2vw, 1.5rem);
+    transition: color 0.3s;
   }
-  #gallery-1152 .cs-image {
-    grid-column: span 4;
-  }
-  #gallery-1152 .cs-image:nth-of-type(4),
-  #gallery-1152 .cs-image:nth-of-type(5) {
-    grid-column: span 6;
-  }
-}
-/* Large Desktop - 1300px */
-@media only screen and (min-width: 81.25rem) {
-  #gallery-1152 .cs-container {
-    max-width: 80rem;
-  }
-  #gallery-1152 .cs-gallery {
-    grid-template-columns: repeat(5, 1fr);
-  }
-  #gallery-1152 .cs-image {
-    grid-column: span 1;
-  }
-  #gallery-1152 .cs-image:nth-of-type(4),
-  #gallery-1152 .cs-image:nth-of-type(5) {
-    grid-column: span 1;
-  }
-}
-/*-- -------------------------- -->
-<---           Logos            -->
-<--- -------------------------- -*/
-/* Mobile - 360px */
-@media only screen and (min-width: 0rem) {
-  #logos-857 {
-    padding: var(--sectionPadding);
-    background-color: #f7f7f7;
-  }
-  #logos-857 .cs-container {
-    width: 100%;
-    /* changes to 1280px at desktop */
-    max-width: 50rem;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* 48px - 64px */
-    gap: clamp(3rem, 6vw, 4rem);
-  }
-  #logos-857 .cs-content {
-    /* set text align to left if content needs to be left aligned */
-    text-align: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    /* centers content horizontally, set to flex-start to left align */
-    align-items: center;
-  }
-  #logos-857 .cs-title {
+  #services-343 .cs-item-text {
+    /* 14px - 16px  */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    color: var(--bodyTextColor);
     margin: 0;
+    /* 16px - 24px */
+    padding: 0 clamp(1rem, 2.2vw, 1.5rem);
   }
-  #logos-857 .cs-logo-group {
-    display: flex;
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #services-343 .cs-container {
+    max-width: 90rem;
+  }
+  #services-343 .cs-card-group {
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 2.5rem;
+    align-items: stretch;
   }
-  #logos-857 .cs-logo {
-    width: 40%;
-    max-width: 7.5rem;
-    height: auto;
-    margin: 0;
-    display: block;
+  #services-343 .cs-item {
+    width: 48.9%;
   }
 }
 /* Desktop - 1300px */
 @media only screen and (min-width: 81.25rem) {
-  #logos-857 .cs-container {
-    max-width: 80rem;
+  #services-343 .cs-item {
+    /* we do this so it's stackable. You can add any number of reviews you want and they will stack and center in the middle. We dont use grid because if you have an odd number of reviews, they don't stay centered.  They align with their grid lines. If you want 4 reviews in a row, lower the width under 22.5vw or 23% to get the desired sizes fit 4 in a row and then stack when you add more */
+    width: clamp(23.8%, 23vw, 23.95%);
   }
 }
 /*-- -------------------------- -->
@@ -580,5 +578,275 @@
   }
   #reviews-608 .cs-item {
     width: clamp(23.45%, 23.2vw, 23.9%);
+  }
+}
+/*-- -------------------------- -->
+<---            FAQ             -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #faq-1346 {
+    padding: var(--sectionPadding);
+    position: relative;
+  }
+  #faq-1346 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+    position: relative;
+    z-index: 1;
+  }
+  #faq-1346 .cs-content {
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
+  }
+  #faq-1346 .cs-flex-group {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* 16px - 20px */
+    gap: clamp(1rem, 2.3vw, 1.25rem);
+    position: relative;
+  }
+  #faq-1346 .cs-wrapper {
+    position: relative;
+  }
+  #faq-1346 .cs-button-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #faq-1346 .cs-option {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    /* 50px - 72px */
+    line-height: clamp(3.125rem, 5vw, 4.5rem);
+    font-weight: 700;
+    padding: 0;
+    /* prevents border from affecting height and width */
+    box-sizing: border-box;
+    background-color: #fff;
+    color: var(--headerColor);
+    border: 1px solid #e8e8e8;
+    position: relative;
+    z-index: 1;
+    transition: border-color 0.3s;
+  }
+  #faq-1346 .cs-option:before {
+    /* background color */
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: 0;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: opacity 0.3s;
+  }
+  #faq-1346 .cs-option:hover:hover {
+    border-color: var(--primary);
+    cursor: pointer;
+  }
+  #faq-1346 .cs-option:hover:hover:before {
+    opacity: 0.1;
+  }
+  #faq-1346 .cs-option.cs-active {
+    border-color: var(--primary);
+  }
+  #faq-1346 .cs-option.cs-active:before {
+    opacity: 0.1;
+  }
+  #faq-1346 .cs-faq-group {
+    width: 100%;
+    max-width: 52.9375rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    transition: transform 0.7s, opacity 0.3s, visibility 0.5s, top 0.3s, left 0.3s;
+    /* makes the transfrom scaling orgin the top left corner, dictates the direction by which the scale transforms animate towards */
+    transform-origin: top;
+    transform-style: preserve-3d;
+    perspective: 900px;
+  }
+  #faq-1346 .cs-faq-group.cs-hidden {
+    /* by using visibility:hidden instead of display:none, we can see the animations from the opacity and transforms, display:none won't render animations. */
+    visibility: hidden;
+    /* prevents the mouse from interacting with it */
+    pointer-events: none;
+    /* hidden galleries have a 0 opacity, and we animate the opacity to 1 when they become active */
+    opacity: 0;
+    /* this top and left value help control the animation, by setting it to position absolute and left 0, the FAQ won't fly off screen to the left, it will stop its position to be at the left edge of the .cs-flex-group (left: 0). Same for the bottom:0 value, the FAQ won't go past that position when it animates */
+    top: 0;
+    left: 0;
+    position: absolute;
+    /* prevents the hidden galleries from overflowing the section, and makes a nice animations to transition to and from */
+    transform: scaleY(0);
+  }
+  #faq-1346 .cs-faq-group.cs-hidden .cs-faq-item {
+    transform: rotateX(270deg);
+    opacity: 0;
+  }
+  #faq-1346 .cs-faq-item {
+    list-style: none;
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    /* clips all corners of the button that overlap the rounded border */
+    overflow: hidden;
+    opacity: 1;
+    top: 0;
+    transform: rotateX(0deg);
+    transition: transform 0.6s, opacity 0.3s;
+  }
+  #faq-1346 .cs-faq-item:nth-of-type(2) {
+    transition-delay: 0.1s;
+  }
+  #faq-1346 .cs-faq-item:nth-of-type(3) {
+    transition-delay: 0.2s;
+  }
+  #faq-1346 .cs-faq-item:nth-of-type(4) {
+    transition-delay: 0.3s;
+  }
+  #faq-1346 .cs-faq-item:nth-of-type(5) {
+    transition-delay: 0.4s;
+  }
+  #faq-1346 .cs-faq-item:nth-of-type(6) {
+    transition-delay: 0.5s;
+  }
+  #faq-1346 .cs-faq-item:nth-of-type(7) {
+    transition-delay: 0.6s;
+  }
+  #faq-1346 .cs-faq-item:nth-of-type(8) {
+    transition-delay: 0.7s;
+  }
+  #faq-1346 .cs-faq-item:nth-of-type(9) {
+    transition-delay: 0.8s;
+  }
+  #faq-1346 .cs-faq-item:nth-of-type(10) {
+    transition-delay: 0.9s;
+  }
+  #faq-1346 .cs-faq-item.active .cs-button {
+    color: var(--primary);
+  }
+  #faq-1346 .cs-faq-item.active .cs-button:before {
+    background-color: var(--primary);
+    transform: rotate(315deg);
+  }
+  #faq-1346 .cs-faq-item.active .cs-button:after {
+    background-color: var(--primary);
+    transform: rotate(-315deg);
+  }
+  #faq-1346 .cs-faq-item.active .cs-item-p {
+    height: auto;
+    /* 20px - 24px bottom */
+    /* 16px - 24px left & right */
+    padding: 0 clamp(1rem, 2vw, 1.5rem) clamp(1.25rem, 1.3vw, 1.5rem);
+    opacity: 1;
+  }
+  #faq-1346 .cs-button {
+    /* 16px - 20px */
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 1.2em;
+    text-align: left;
+    font-weight: bold;
+    /* 16px - 24px top & bottom */
+    /* 16px - 20px left & right */
+    padding: clamp(1rem, 2vw, 1.5rem) clamp(1rem, 2vw, 1.25rem);
+    background-color: #fff;
+    border: none;
+    color: var(--primary);
+    display: block;
+    width: 100%;
+    position: relative;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  #faq-1346 .cs-button:hover {
+    cursor: pointer;
+  }
+  #faq-1346 .cs-button:before {
+    /* left line */
+    content: "";
+    width: 0.5rem;
+    height: 0.125rem;
+    background-color: var(--primary);
+    opacity: 1;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 1.5rem;
+    transform: rotate(45deg);
+    /* animate the transform from the left side of the x axis, and the center of the y */
+    transform-origin: left center;
+    transition: transform 0.5s;
+  }
+  #faq-1346 .cs-button:after {
+    /* right line */
+    content: "";
+    width: 0.5rem;
+    height: 0.125rem;
+    background-color: var(--primary);
+    opacity: 1;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    top: 50%;
+    right: 1.3125rem;
+    transform: rotate(-45deg);
+    /* animate the transform from the right side of the x axis, and the center of the y */
+    transform-origin: right center;
+    transition: transform 0.5s;
+  }
+  #faq-1346 .cs-button-text {
+    width: 80%;
+    display: block;
+  }
+  #faq-1346 .cs-item-p {
+    /* 14px - 16px */
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5em;
+    width: 90%;
+    height: 0;
+    margin: 0;
+    /* 16px - 24px */
+    padding: 0 clamp(1rem, 2vw, 1.5rem);
+    opacity: 0;
+    color: var(--bodyTextColor);
+    /* clips the text so it doesn't show up */
+    overflow: hidden;
+    transition: opacity 0.3s, padding-bottom 0.3s;
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 48rem) {
+  #faq-1346 .cs-container {
+    max-width: 80rem;
+  }
+  #faq-1346 .cs-flex-group {
+    flex-direction: row;
+  }
+  #faq-1346 .cs-button-group {
+    width: 31%;
+    max-width: 25.8125rem;
   }
 }

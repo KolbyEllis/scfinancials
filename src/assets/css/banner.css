@@ -35,11 +35,6 @@
     color: var(--bodyTextColorWhite);
     position: relative;
   }
-  #banner-1400 .cs-breadcrumbs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   #banner-1400 .cs-link {
     font-size: 1rem;
     line-height: 1.2em;

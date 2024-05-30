@@ -3,251 +3,182 @@
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #faq-1346 {
+  #faq-489 {
     padding: var(--sectionPadding);
-    position: relative;
+    background: #fafbfc;
   }
-  #faq-1346 .cs-container {
+  #faq-489 .cs-container {
     width: 100%;
-    max-width: 80rem;
+    /* changes to 1280px at tablet */
+    max-width: 34.375rem;
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    /* 48px - 64px */
-    gap: clamp(3rem, 6vw, 4rem);
-    position: relative;
-    z-index: 1;
+    justify-content: center;
+    align-items: flex-start;
+    /* 40px - 48px */
+    gap: clamp(2.5rem, 5vw, 3rem);
   }
-  #faq-1346 .cs-content {
+  #faq-489 .cs-content {
     /* set text align to left if content needs to be left aligned */
-    text-align: center;
+    text-align: left;
     width: 100%;
     display: flex;
     flex-direction: column;
     /* centers content horizontally, set to flex-start to left align */
-    align-items: center;
+    align-items: flex-start;
   }
-  #faq-1346 .cs-flex-group {
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    /* 16px - 20px */
-    gap: clamp(1rem, 2.3vw, 1.25rem);
-    position: relative;
+  #faq-489 .cs-color {
+    color: var(--primary);
   }
-  #faq-1346 .cs-wrapper {
-    position: relative;
+  #faq-489 .cs-title {
+    /* 17 characters wide including spaces */
+    max-width: 17ch;
   }
-  #faq-1346 .cs-button-group {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    /* prevents flexbox from squishing it */
-    flex: none;
+  #faq-489 .cs-text {
+    /* 32px - 48px */
+    margin-bottom: clamp(2rem, 3vw, 3rem);
   }
-  #faq-1346 .cs-option {
-    /* 16px - 20px */
-    font-size: clamp(1rem, 2vw, 1.25rem);
-    /* 50px - 72px */
-    line-height: clamp(3.125rem, 5vw, 4.5rem);
+  #faq-489 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
     font-weight: 700;
-    padding: 0;
-    /* prevents border from affecting height and width */
-    box-sizing: border-box;
-    background-color: #fff;
-    color: var(--headerColor);
-    border: 1px solid #e8e8e8;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
     position: relative;
     z-index: 1;
-    transition: border-color 0.3s;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
   }
-  #faq-1346 .cs-option:before {
-    /* background color */
+  #faq-489 .cs-button-solid:before {
     content: "";
-    width: 100%;
-    height: 100%;
-    background: var(--primary);
-    opacity: 0;
     position: absolute;
-    display: block;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
     top: 0;
     left: 0;
     z-index: -1;
-    transition: opacity 0.3s;
+    border-radius: 0.25rem;
+    transition: width 0.3s;
   }
-  #faq-1346 .cs-option:hover:hover {
-    border-color: var(--primary);
-    cursor: pointer;
-  }
-  #faq-1346 .cs-option:hover:hover:before {
-    opacity: 0.1;
-  }
-  #faq-1346 .cs-option.cs-active {
-    border-color: var(--primary);
-  }
-  #faq-1346 .cs-option.cs-active:before {
-    opacity: 0.1;
-  }
-  #faq-1346 .cs-faq-group {
+  #faq-489 .cs-button-solid:hover:before {
     width: 100%;
-    max-width: 52.9375rem;
+  }
+  #faq-489 .cs-faq-group {
+    max-width: 46.25rem;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 0.5rem;
-    transition: transform 0.7s, opacity 0.3s, visibility 0.5s, top 0.3s, left 0.3s;
-    /* makes the transfrom scaling orgin the top left corner, dictates the direction by which the scale transforms animate towards */
-    transform-origin: top;
-    transform-style: preserve-3d;
-    perspective: 900px;
+    gap: 1.25rem;
   }
-  #faq-1346 .cs-faq-group.cs-hidden {
-    /* by using visibility:hidden instead of display:none, we can see the animations from the opacity and transforms, display:none won't render animations. */
-    visibility: hidden;
-    /* prevents the mouse from interacting with it */
-    pointer-events: none;
-    /* hidden galleries have a 0 opacity, and we animate the opacity to 1 when they become active */
-    opacity: 0;
-    /* this top and left value help control the animation, by setting it to position absolute and left 0, the FAQ won't fly off screen to the left, it will stop its position to be at the left edge of the .cs-flex-group (left: 0). Same for the bottom:0 value, the FAQ won't go past that position when it animates */
-    top: 0;
-    left: 0;
-    position: absolute;
-    /* prevents the hidden galleries from overflowing the section, and makes a nice animations to transition to and from */
-    transform: scaleY(0);
-  }
-  #faq-1346 .cs-faq-group.cs-hidden .cs-faq-item {
-    transform: rotateX(270deg);
-    opacity: 0;
-  }
-  #faq-1346 .cs-faq-item {
+  #faq-489 .cs-faq-item {
     list-style: none;
     width: 100%;
-    border: 1px solid #e8e8e8;
-    /* clips all corners of the button that overlap the rounded border */
-    overflow: hidden;
-    opacity: 1;
-    top: 0;
-    transform: rotateX(0deg);
-    transition: transform 0.6s, opacity 0.3s;
+    /* prevents border from affecting width and height */
+    box-sizing: border-box;
+    border: 1px solid #f1f1f4;
+    transition: border 0.3s, padding 0.3s, border-color 0.3s;
   }
-  #faq-1346 .cs-faq-item:nth-of-type(2) {
-    transition-delay: 0.1s;
+  #faq-489 .cs-faq-item:hover {
+    border-color: var(--primary);
   }
-  #faq-1346 .cs-faq-item:nth-of-type(3) {
-    transition-delay: 0.2s;
+  #faq-489 .cs-faq-item.active {
+    padding-bottom: 1rem;
+    border-color: var(--primary);
   }
-  #faq-1346 .cs-faq-item:nth-of-type(4) {
-    transition-delay: 0.3s;
-  }
-  #faq-1346 .cs-faq-item:nth-of-type(5) {
-    transition-delay: 0.4s;
-  }
-  #faq-1346 .cs-faq-item:nth-of-type(6) {
-    transition-delay: 0.5s;
-  }
-  #faq-1346 .cs-faq-item:nth-of-type(7) {
-    transition-delay: 0.6s;
-  }
-  #faq-1346 .cs-faq-item:nth-of-type(8) {
-    transition-delay: 0.7s;
-  }
-  #faq-1346 .cs-faq-item:nth-of-type(9) {
-    transition-delay: 0.8s;
-  }
-  #faq-1346 .cs-faq-item:nth-of-type(10) {
-    transition-delay: 0.9s;
-  }
-  #faq-1346 .cs-faq-item.active .cs-button {
+  #faq-489 .cs-faq-item.active .cs-button {
     color: var(--primary);
   }
-  #faq-1346 .cs-faq-item.active .cs-button:before {
+  #faq-489 .cs-faq-item.active .cs-button:before {
+    transform: translateY(-50%) rotate(180deg);
+    opacity: 0;
     background-color: var(--primary);
-    transform: rotate(315deg);
   }
-  #faq-1346 .cs-faq-item.active .cs-button:after {
+  #faq-489 .cs-faq-item.active .cs-button:after {
+    transform: translateY(-50%) rotate(360deg);
     background-color: var(--primary);
-    transform: rotate(-315deg);
   }
-  #faq-1346 .cs-faq-item.active .cs-item-p {
+  #faq-489 .cs-faq-item.active .cs-item-p {
     height: auto;
-    /* 20px - 24px bottom */
-    /* 16px - 24px left & right */
-    padding: 0 clamp(1rem, 2vw, 1.5rem) clamp(1.25rem, 1.3vw, 1.5rem);
+    margin-top: 0.5rem;
     opacity: 1;
   }
-  #faq-1346 .cs-button {
-    /* 16px - 20px */
-    font-size: clamp(1rem, 2vw, 1.25rem);
+  #faq-489 .cs-button {
+    /* 20px - 25px */
+    font-size: clamp(1.25rem, 1vw, 1.5625rem);
     line-height: 1.2em;
     text-align: left;
     font-weight: bold;
-    /* 16px - 24px top & bottom */
-    /* 16px - 20px left & right */
-    padding: clamp(1rem, 2vw, 1.5rem) clamp(1rem, 2vw, 1.25rem);
-    background-color: #fff;
+    padding: 1rem 1.5rem;
     border: none;
+    background: transparent;
     color: var(--headerColor);
     display: block;
     width: 100%;
     position: relative;
     transition: background-color 0.3s, color 0.3s;
   }
-  #faq-1346 .cs-button:hover {
+  #faq-489 .cs-button:hover {
     cursor: pointer;
   }
-  #faq-1346 .cs-button:before {
-    /* left line */
+  #faq-489 .cs-button:before {
+    /* horizontal line */
     content: "";
-    width: 0.5rem;
-    height: 0.125rem;
-    background-color: var(--headerColor);
+    width: 1rem;
+    height: 0.1875rem;
+    background-color: currentColor;
     opacity: 1;
-    border-radius: 50%;
+    border-radius: 1px;
     position: absolute;
     display: block;
     top: 50%;
     right: 1.5rem;
-    transform: rotate(45deg);
-    /* animate the transform from the left side of the x axis, and the center of the y */
-    transform-origin: left center;
-    transition: transform 0.5s;
+    transform: translateY(-50%);
+    transition: transform 0.5s, opacity 0.3s;
   }
-  #faq-1346 .cs-button:after {
-    /* right line */
+  #faq-489 .cs-button:after {
+    /* vertical line */
     content: "";
-    width: 0.5rem;
-    height: 0.125rem;
-    background-color: var(--headerColor);
+    width: 1rem;
+    height: 0.1875rem;
+    background-color: currentColor;
     opacity: 1;
-    border-radius: 50%;
+    border-radius: 1px;
     position: absolute;
     display: block;
     top: 50%;
-    right: 1.3125rem;
-    transform: rotate(-45deg);
-    /* animate the transform from the right side of the x axis, and the center of the y */
-    transform-origin: right center;
+    right: 1.5rem;
+    transform: translateY(-50%) rotate(90deg);
+    transform-origin: center;
     transition: transform 0.5s;
   }
-  #faq-1346 .cs-button-text {
+  #faq-489 .cs-button-text {
     width: 80%;
     display: block;
   }
-  #faq-1346 .cs-item-p {
+  #faq-489 .cs-item-p {
     /* 14px - 16px */
     font-size: clamp(0.875rem, 1.5vw, 1rem);
     line-height: 1.5em;
     width: 90%;
     height: 0;
     margin: 0;
-    /* 16px - 24px */
-    padding: 0 clamp(1rem, 2vw, 1.5rem);
+    /* prevents padding and border from affecting height and width */
+    box-sizing: border-box;
+    padding: 0 1.5rem;
     opacity: 0;
     color: var(--bodyTextColor);
     /* clips the text so it doesn't show up */
@@ -257,14 +188,23 @@
 }
 /* Desktop - 1024px */
 @media only screen and (min-width: 48rem) {
-  #faq-1346 .cs-container {
+  #faq-489 .cs-container {
     max-width: 80rem;
-  }
-  #faq-1346 .cs-flex-group {
     flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3.25rem;
   }
-  #faq-1346 .cs-button-group {
-    width: 31%;
-    max-width: 25.8125rem;
+  #faq-489 .cs-content {
+    margin-top: 3.125rem;
+  }
+  #faq-489 .cs-title,
+  #faq-489 .cs-topper {
+    text-align: left;
+    margin-left: 0;
+  }
+  #faq-489 .cs-faq-group {
+    width: clamp(56%, 58vw, 58%);
+    flex: none;
   }
 }

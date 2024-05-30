@@ -325,7 +325,7 @@
   #meet-team-1348 .cs-link:hover .cs-icon {
     /* use this pen to generate a filter from black to a color of your choosing */
     /* https://codepen.io/sosuke/pen/Pjoqqp */
-    filter: invert(55%) sepia(42%) saturate(4845%) hue-rotate(337deg) brightness(101%) contrast(98%);
+    filter: invert(12%) sepia(94%) saturate(1900%) hue-rotate(196deg) brightness(94%) contrast(114%);
   }
   #meet-team-1348 .cs-link:first-of-type,
   #meet-team-1348 .cs-link:last-of-type {
@@ -342,6 +342,10 @@
   }
   #meet-team-1348 .cs-link:nth-of-type(4) {
     transition-delay: 0.2s;
+  }
+  #meet-team-1348 .cs-button-solid {
+    margin-top: 1rem;
+    color: white;
   }
 }
 /* Tablet - 500px */
