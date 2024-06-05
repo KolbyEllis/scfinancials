@@ -127,13 +127,3 @@ const dropDowns = Array.from(document.querySelectorAll('#cs-navigation .cs-dropd
             CSmodal.style.zIndex = '1000'; // Set z-index to 1000 if not closed
         }
     }
-
-    // Run the check when the window loads
-    window.addEventListener('load', checkLocalStorage);
-
-    // Wait for .5 seconds to add the 'cs-loaded' class 
-    setTimeout(function() {
-        CSmodal.classList.add('cs-loaded');
-    }, 500); // 2000 milliseconds equals 2 seconds
-    
-                                

@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
 title: "National Debt-The Now 8000-pound gorilla."
-=======
-title: National Debt -The Now 8000-pound gorilla.
->>>>>>> 313fa530d6d4f45144e9dea2c1188653b323ebef
 description: In today's economic landscape, many challenges confront our nation.
   One is the weight of our national debt.
 author: noah schwab

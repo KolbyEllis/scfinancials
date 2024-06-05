@@ -295,31 +295,6 @@
                 object-fit: contain;
                 z-index: 1;
             }
-
-            &::before {
-                content: '';
-                width: 100%;
-                height: 100%;
-                background-color: var(--primary);
-                opacity: 0.1;
-                border-radius: 50%;
-                position: absolute;
-                top: 0;
-                left: 0;
-            }
-
-            &::after {
-                content: '';
-                width: 75%;
-                height: 75%;
-                background-color: var(--primary);
-                opacity: 0.3;
-                border-radius: 50%;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
         }
 
         .cs-background {
@@ -436,6 +411,7 @@
             justify-content: space-between;
             align-items: center;
             column-gap: (12/16rem);
+            
         }
 
         .cs-item {

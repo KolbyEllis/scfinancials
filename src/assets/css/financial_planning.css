@@ -261,29 +261,6 @@
     object-fit: contain;
     z-index: 1;
   }
-  #why-choose-1571 .cs-image::before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    background-color: var(--primary);
-    opacity: 0.1;
-    border-radius: 50%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  #why-choose-1571 .cs-image::after {
-    content: '';
-    width: 75%;
-    height: 75%;
-    background-color: var(--primary);
-    opacity: 0.3;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
   #why-choose-1571 .cs-background {
     width: 100%;
     height: 100%;

@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
 title: "Secret to wealth - compounding returns"
-=======
-title: Secret to wealth - compounding returns
->>>>>>> 313fa530d6d4f45144e9dea2c1188653b323ebef
 description: Compounding returns is more than just some complicated lingo that a
   financial advisor uses. Compounding is necessary for most people to become
   financially independent. There is a reason why Albert Einstein said that the

@@ -322,11 +322,6 @@
     transform: translateY(1rem);
     transition: transform 0.3s, opacity 0.3s;
   }
-  #meet-team-1348 .cs-link:hover .cs-icon {
-    /* use this pen to generate a filter from black to a color of your choosing */
-    /* https://codepen.io/sosuke/pen/Pjoqqp */
-    filter: invert(12%) sepia(94%) saturate(1900%) hue-rotate(196deg) brightness(94%) contrast(114%);
-  }
   #meet-team-1348 .cs-link:first-of-type,
   #meet-team-1348 .cs-link:last-of-type {
     margin-top: -1.25rem;
@@ -476,6 +471,7 @@
     align-items: flex-start;
     gap: 0.75rem;
     transition: background-color 0.3s;
+    pointer-events: none;
   }
   #why-choose-1371 .cs-item:hover {
     background-color: var(--primary);

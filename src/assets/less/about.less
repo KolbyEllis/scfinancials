@@ -374,14 +374,6 @@
                 transform 0.3s,
                 opacity 0.3s;
 
-            &:hover {
-                .cs-icon {
-                    /* use this pen to generate a filter from black to a color of your choosing */
-                    /* https://codepen.io/sosuke/pen/Pjoqqp */
-                    filter: invert(12%) sepia(94%) saturate(1900%) hue-rotate(196deg) brightness(94%) contrast(114%);
-                }
-            }
-
             &:first-of-type,
             &:last-of-type {
                 margin-top: (-20/16rem);
@@ -557,6 +549,7 @@
             align-items: flex-start;
             gap: (12/16rem);
             transition: background-color 0.3s;
+            pointer-events: none;
 
             &:hover {
                 background-color: var(--primary);
