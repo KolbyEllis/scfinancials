@@ -7,59 +7,59 @@
     overflow: hidden;
   }
   #meet-team-860 .cs-container {
-    width: 100%;
-    /* changes to 1280px at desktop */
-    max-width: 34.375rem;
-    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
+    /* changes to 1280px at desktop */
+    max-width: 34.375rem;
+    width: 100%;
     /* 48px - 64px */
     gap: clamp(3rem, 6vw, 4rem);
   }
   #meet-team-860 .cs-content {
-    /* set text align to left if content needs to be left aligned */
-    text-align: center;
-    width: 100%;
-    max-width: 33.875rem;
     display: flex;
     flex-direction: column;
     /* centers content horizontally, set to flex-start to left align */
     align-items: center;
+    max-width: 33.875rem;
+    width: 100%;
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
   }
   #meet-team-860 .cs-title {
     max-width: 20ch;
   }
   #meet-team-860 .cs-button-solid {
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    border-radius: 0.25rem;
+    margin: 0;
+    background-color: var(--primary);
+    min-width: 9.375rem;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+    padding: 0 1.5rem;
+    text-decoration: none;
     font-size: 1rem;
     /* 46px - 56px */
     line-height: clamp(2.875rem, 5.5vw, 3.5rem);
-    text-decoration: none;
     font-weight: 700;
-    text-align: center;
-    margin: 0;
     color: #fff;
-    min-width: 9.375rem;
-    padding: 0 1.5rem;
-    background-color: var(--primary);
-    border-radius: 0.25rem;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    /* prevents padding from adding to the width */
-    box-sizing: border-box;
+    text-align: center;
   }
   #meet-team-860 .cs-button-solid:before {
-    content: "";
+    z-index: -1;
     position: absolute;
-    height: 100%;
-    width: 0%;
-    background: #000;
-    opacity: 1;
     top: 0;
     left: 0;
-    z-index: -1;
+    content: "";
+    opacity: 1;
     border-radius: 0.25rem;
+    background: #000;
+    height: 100%;
+    width: 0%;
     transition: width 0.3s;
   }
   #meet-team-860 .cs-button-solid:hover:before {
@@ -70,32 +70,32 @@
     flex: none;
   }
   #meet-team-860 .cs-card-group {
-    width: 100%;
-    max-width: 39.375rem;
-    margin: 0;
-    padding: 0;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0;
+    max-width: 39.375rem;
+    width: 100%;
+    padding: 0;
     /* 16px - 20px */
     gap: clamp(1rem, 2.3vw, 1.25rem);
-    position: relative;
   }
   #meet-team-860 .cs-item {
-    list-style: none;
-    width: 100%;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    position: relative;
+    width: 100%;
+    list-style: none;
+  }
+  #meet-team-860 .cs-item:hover .cs-picture img {
+    transform: scale(1.1);
   }
   #meet-team-860 .cs-item:hover .cs-picture:before,
   #meet-team-860 .cs-item:hover .cs-picture:after {
     opacity: 1;
-  }
-  #meet-team-860 .cs-item:hover .cs-picture img {
-    transform: scale(1.1);
   }
   #meet-team-860 .cs-item:hover .cs-info {
     background-color: var(--primary);
@@ -105,62 +105,62 @@
     color: var(--bodyTextColorWhite);
   }
   #meet-team-860 .cs-picture {
-    width: 100%;
-    height: auto;
-    margin: 0 0 0.5rem 0;
-    /* removed at tablet */
-    aspect-ratio: 328/407;
+    z-index: 1;
+    position: relative;
+    display: block;
     border-radius: 1rem;
+    margin: 0 0 0.5rem 0;
+    height: auto;
+    width: 100%;
     /* clips the img corners */
     /* clips img tag from overflowing it on hover */
     overflow: hidden;
-    display: block;
-    position: relative;
-    z-index: 1;
+    /* removed at tablet */
+    aspect-ratio: 328/407;
   }
   #meet-team-860 .cs-picture img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* makes sure the top of the image is at the top of the parent, heads won't get cut off this way */
-    object-position: top;
+    z-index: -1;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* makes sure the top of the image is at the top of the parent, heads won't get cut off this way */
+    object-position: top;
     transition: transform 0.7s;
   }
   #meet-team-860 .cs-info {
-    width: 100%;
-    padding: 1rem;
-    /* prevents padding and border from affecting height and width */
-    box-sizing: border-box;
-    background-color: #f7f7f7;
-    border-radius: 0.75rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 0.75rem;
+    background-color: #f7f7f7;
+    width: 100%;
+    /* prevents padding and border from affecting height and width */
+    box-sizing: border-box;
+    padding: 1rem;
     transition: background-color 0.3s;
   }
   #meet-team-860 .cs-info a {
     text-decoration: none;
   }
   #meet-team-860 .cs-name {
+    display: block;
+    margin: 0 0 0.25rem 0;
     font-size: 1.25rem;
     line-height: 1.2em;
     font-weight: 700;
-    margin: 0 0 0.25rem 0;
     color: var(--headerColor);
-    display: block;
     transition: color 0.3s;
   }
   #meet-team-860 .cs-job {
+    display: block;
+    margin-right: 0;
     /* 14px - 16px */
     font-size: clamp(0.875rem, 1.5vw, 1rem);
     line-height: 1.5em;
-    margin-right: 0;
     color: var(--bodyTextColor);
-    display: block;
     transition: color 0.3s;
   }
 }
@@ -188,19 +188,19 @@
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 56.25rem) {
   #meet-team-860 .cs-container {
-    max-width: 80rem;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 80rem;
   }
   #meet-team-860 .cs-content {
-    text-align: left;
-    width: 55%;
     flex-direction: column;
     align-items: flex-start;
+    width: 55%;
+    text-align: left;
   }
   #meet-team-860 .cs-card-group {
-    justify-content: center;
     flex-wrap: nowrap;
+    justify-content: center;
   }
   #meet-team-860 .cs-item {
     width: 100%;
